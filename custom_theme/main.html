@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block header %}
+<!--<header class="{{ class }}" data-md-component="header">-->
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
+      {% include "partials/logo.html" %}
+    </a>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            {{ config.site_name }}
+          </span>
+        </div>
+      </div>
+    </div>
+    {% if "material/search" in config.plugins %}
+      {% set search = config.plugins["material/search"] | attr("config") %}
+      {% if search.enabled %}
+        <label class="md-header__button md-icon" for="__search">
+          {% set icon = config.theme.icon.search or "material/magnify" %}
+          {% include ".icons/" ~ icon ~ ".svg" %}
+        </label>
+        {% include "partials/search.html" %}
+      {% endif %}
+    {% endif %}
+  </nav>
+</header>
+{% endblock %}
+
+{% block site_nav %}
+{% if nav %}
+  <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+    <div class="md-sidebar__scrollwrap">
+      <div class="md-sidebar__inner">
+        <nav class="md-nav md-nav--primary" data-md-level="0">
+          <label class="md-nav__title md-nav__title--site" for="__drawer">
+            <span class="md-nav__button md-logo">
+              {% if config.theme.logo.icon %}
+                <i class="md-icon">{{ config.theme.logo.icon }}</i>
+              {% elif config.theme.logo.startswith("http") %}
+                <img src="{{ config.theme.logo }}" width="86" height="48">
+              {% else %}
+                <img src="{{ base_url }}/{{ config.theme.logo }}" width="86" height="48">
+              {% endif %}
+            </span>
+          </label>
+          {% if config.repo_url %}
+            <div class="md-nav__source">
+              {% include "partials/source.html" %}
+            </div>
+          {% endif %}
+          <ul class="md-nav__list" data-md-scrollfixs>
+           {% include "partials/nav.html" %} 
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+{% endif %}
+{% if page.toc %}
+  <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+    <div class="md-sidebar__scrollwrap">
+      <div class="md-sidebar__inner">
+        {% include "partials/toc.html" %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+{% endblock %}

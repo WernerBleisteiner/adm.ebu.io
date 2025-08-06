@@ -1,0 +1,28 @@
+digraph multiple_languages_non_interactive {
+  APR_1001 -> ACO_1001;
+  APR_1001 -> ACO_1003;
+  APR_1001 -> ACO_100n;
+
+  APR_1002 -> ACO_1002;
+  APR_1002 -> ACO_1003;
+  APR_1002 -> ACO_100n;
+
+  ACO_1001 -> AO_1001;
+  ACO_1002 -> AO_1002;
+  ACO_1003 -> AO_1003;
+  ACO_100n -> AO_100n;
+
+  APR_1001[label="{APR_1001|audioProgrammeLanguage=\"en\"}", fillcolor="#eba178bb"];
+  APR_1002[label="{APR_1002|audioProgrammeLanguage=\"de\"}", fillcolor="#eba178bb"];
+
+  ACO_1001[label="{ACO_1001|audioContentLanguage=\"en\"}", fillcolor="#aad083bb"];
+  ACO_1002[label="{ACO_1002|audioContentLanguage=\"de\"}", fillcolor="#aad083bb"];
+  ACO_1003[fillcolor="#aad083bb"];
+  ACO_100n[fillcolor="#aad083bb"];
+
+  AO_1001[fillcolor="#73add8bb"];
+  AO_1002[fillcolor="#73add8bb"];
+  AO_1003[fillcolor="#73add8bb"];
+  AO_100n[fillcolor="#73add8bb"];
+
+}

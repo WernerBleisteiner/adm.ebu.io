@@ -1,0 +1,90 @@
+site_name: The Audio Definition Model
+site_url: https://adm.ebu.io
+theme:
+  name: 'material'
+  custom_dir: custom_theme
+  logo: 'img/ebu_eye.png'
+  features:
+   - navigation.instant
+extra_css:
+  - 'css/fig_captions.css'
+use_directory_urls: false
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#extra_javascript:
+#  - javascripts/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+markdown_extensions:
+  - mdx_math
+  - codehilite
+nav:
+  - Home: 'index.md'
+  - Introduction:
+    - What is the ADM?: 'background/what_is_the_adm.md'
+    - Types of Audio: 'background/audio_types.md'
+    - Rendering: 'background/rendering.md'
+  - ADM Guidelines:
+    - Step-by-step Tutorial:
+      - Overall structure: 'guidelines/tutorial/overall.md'
+      - Format part: 'guidelines/tutorial/format_part.md'
+      - Content part: 'guidelines/tutorial/content_part.md'
+      - Common definitions: 'guidelines/tutorial/common_definitions.md'
+      - Timing: 'guidelines/tutorial/timing.md'
+      - Dynamic and Static Metadata: 'guidelines/tutorial/dynamic.md'
+    - Use cases:
+      - Foreground/Background: 'guidelines/use_cases/foreground_background.md'
+      - Multiple languages: 'guidelines/use_cases/multiple_languages.md'
+      - Multiple storylines: 'guidelines/use_cases/multiple_storylines.md'
+      - Dynamic mixed: 'guidelines/use_cases/dynamic_mixed.md'
+    - Reference:
+      - ADM Elements:
+        - Introduction: 'guidelines/reference/elements_intro.md'
+        - audioFormatExtended: 'guidelines/reference/adm_elements/audio_format_extended.md'
+        - audioProgramme: 'guidelines/reference/adm_elements/audio_programme.md'
+        - audioContent: 'guidelines/reference/adm_elements/audio_content.md'
+        - audioObject: 'guidelines/reference/adm_elements/audio_object.md'
+        - audioPackFormat:
+          - Common: 'guidelines/reference/adm_elements/audio_pack_format.md'
+          - DirectSpeakers: 'guidelines/reference/adm_elements/audio_pack_format_direct_speakers.md'
+          - Matrix: 'guidelines/reference/adm_elements/audio_pack_format_matrix.md'
+          - Objects: 'guidelines/reference/adm_elements/audio_pack_format_objects.md'
+          - HOA: 'guidelines/reference/adm_elements/audio_pack_format_hoa.md'
+          - Binaural: 'guidelines/reference/adm_elements/audio_pack_format_binaural.md'
+        - audioChannelFormat:
+          - Common: 'guidelines/reference/adm_elements/audio_channel_format.md'
+          - DirectSpeakers: 'guidelines/reference/adm_elements/audio_channel_format_direct_speakers.md'
+          - Matrix: 'guidelines/reference/adm_elements/audio_channel_format_matrix.md'
+          - Objects: 'guidelines/reference/adm_elements/audio_channel_format_objects.md'
+          - HOA: 'guidelines/reference/adm_elements/audio_channel_format_hoa.md'
+          - Binaural: 'guidelines/reference/adm_elements/audio_channel_format_binaural.md'
+        - audioStreamFormat: 'guidelines/reference/adm_elements/audio_stream_format.md'
+        - audioTrackFormat: 'guidelines/reference/adm_elements/audio_track_format.md'
+        - audioTrackUID: 'guidelines/reference/adm_elements/audio_track_uid.md'
+        - Shared Parameters:
+          - loudnessMetadata: 'guidelines/reference/adm_elements/loudness_metadata.md'
+          - typeDefinitions: 'guidelines/reference/adm_elements/type_definitions.md'
+        - Parameters:
+          - gain: 'guidelines/reference/adm_elements/parameters/gain.md'
+          - importance: 'guidelines/reference/adm_elements/parameters/importance.md'
+          - diffuse: 'guidelines/reference/adm_elements/parameters/diffuse.md'
+          - channelLock: 'guidelines/reference/adm_elements/parameters/channel_lock.md'
+          - jumpPosition: 'guidelines/reference/adm_elements/parameters/jump_position.md'
+          - zoneExclusion: 'guidelines/reference/adm_elements/parameters/zone_exclusion.md'
+          - objectDivergence: 'guidelines/reference/adm_elements/parameters/object_divergence.md'
+          - orderAndDegree: 'guidelines/reference/adm_elements/parameters/order_and_degree.md'
+      - Excursions:
+        - Introduction: 'guidelines/reference/excursion_intro.md'
+        - Use of IDs: 'guidelines/reference/excursions/use_of_ids.md'
+        - BW64 and ADM: 'guidelines/reference/excursions/bw64_and_adm.md'
+        - CHNA Chunk: 'guidelines/reference/excursions/chna_chunk.md'
+        - Timing: 'guidelines/reference/excursions/timing.md'
+        - Coordinate System: 'guidelines/reference/excursions/coordinate_system.md'
+        - Screen-related Content: 'guidelines/reference/excursions/screen_related_content.md'
+  - ADM related standards: ''
+  - EBU documents: ''
+  - Test material: ''
+  - Who is using: '' 
+  - Webinars: ''
+  - Events: ''
+  - ADM Implementers Group: ''
+  - ADM related software: ''
+  - Future work: ''

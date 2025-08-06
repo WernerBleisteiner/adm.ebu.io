@@ -1,0 +1,24 @@
+digraph foreground_background {
+  APR_1001 -> ACO_1001;
+  APR_1001 -> ACO_1002;
+  APR_1001 -> ACO_100n;
+
+  ACO_1001 -> AO_1001;
+  ACO_1002 -> AO_1003;
+  ACO_1002 -> AO_1004;
+
+  AO_1001 -> AO_1002;
+  AO_1001 -> AO_100n;
+
+  APR_1001[fillcolor="#eba178bb"];
+
+  ACO_1001[label="{ACO_1001|audioContentName=\"Background\"}", fillcolor="#aad083bb"];
+  ACO_1002[fillcolor="#aad083bb"];
+  ACO_100n[fillcolor="#aad083bb"];
+
+  AO_1001[label="{AO_1001|audioObjectInteraction gainInteract=\"1\"\l}", fillcolor="#73add8bb"];
+  AO_1002[fillcolor="#73add8bb"];
+  AO_1003[fillcolor="#73add8bb"];
+  AO_1004[fillcolor="#73add8bb"];
+  AO_100n[fillcolor="#73add8bb"];
+}

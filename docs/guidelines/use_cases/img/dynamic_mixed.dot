@@ -1,0 +1,33 @@
+digraph dynamic_mixed {
+  APR_1001 -> ACO_1001;
+  APR_1001 -> ACO_1002;
+  APR_1001 -> ACO_1003;
+
+  ACO_1001 -> AO_1001;
+  ACO_1002 -> AO_1002;
+  ACO_1003 -> AO_1003;
+
+  AO_1001 -> AP_00031001;
+  AO_1002 -> AP_00031002;
+  AO_1003 -> AP_00010002;
+
+  AP_00031001 -> AC_00031001;
+  AP_00031002 -> AC_00031002;
+
+  APR_1001[label="{APR_1001}", fillcolor="#eba178bb"];
+
+  ACO_1001[fillcolor="#aad083bb"];
+  ACO_1002[fillcolor="#aad083bb"];
+  ACO_1003[fillcolor="#aad083bb"];
+
+  AO_1001[label="{AO_1001|start=00:00:05.00000|duration=00:00:55.00000}", fillcolor="#73add8bb"];
+  AO_1002[label="{AO_1002|start=00:01:05.00000|duration=00:00:25.00000}", fillcolor="#73add8bb"];
+  AO_1003[label="{AO_1003}", fillcolor="#73add8bb"];
+
+  AP_00031001[label="{AP_00031001}", fillcolor="#e57e73bb"]
+  AP_00031002[label="{AP_00031002}", fillcolor="#e57e73bb"]
+  AP_00010002[label="{AP_00010002*}", fillcolor="#ff9e93bb", color="#852e23bb"]
+
+  AC_00031001[label="{AC_00031001|AB_...01|AB_...02|AB_...03}", fillcolor="#fdf7bcbb"]
+  AC_00031002[label="{AC_00031002|AB_...01|AB_...02|AB_...03}", fillcolor="#fdf7bcbb"]
+}

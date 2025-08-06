@@ -1,0 +1,35 @@
+digraph multiple_storylines {
+  APR_1001 -> ACO_1001;
+  APR_1001 -> ACO_1002 [style=dashed];
+  APR_1001 -> ACO_1003;
+  APR_1001 -> ACO_1004;
+
+  ACO_1001 -> AO_1001;
+  ACO_1002 -> AO_1004;
+  ACO_1003 -> AO_1007;
+  ACO_1004 -> AO_1008;
+
+  AO_1001 -> AO_1002;
+  AO_1001 -> AO_1003;
+  AO_1004 -> AO_1005;
+  AO_1004 -> AO_1006;
+
+  { rank = same; ACO_1001; ACO_1002; ACO_1003; ACO_1004};
+  { rank = same; AO_1001; AO_1004};
+
+  APR_1001[label="{APR_1001}", fillcolor="#eba178bb"];
+
+  ACO_1001[label="{ACO_1001|Lesley}", fillcolor="#aad083bb"];
+  ACO_1002[label="{ACO_1002|Bill}", fillcolor="#aad083bb"];
+  ACO_1003[label="{ACO_1003|Narrator}", fillcolor="#aad083bb"];
+  ACO_1004[label="{ACO_1004|Music}", fillcolor="#aad083bb"];
+
+  AO_1001[label="{AO_1001|Lesley|audioComplementaryObjectIDRef=\"AO_1004\"}", fillcolor="#73add8bb"];
+  AO_1002[label="{AO_1002|Speech}", fillcolor="#73add8bb"];
+  AO_1003[label="{AO_1003|Ambience}", fillcolor="#73add8bb"];
+  AO_1004[label="{AO_1004|Bill}", fillcolor="#73add8bb"];
+  AO_1005[label="{AO_1005|Speech}", fillcolor="#73add8bb"];
+  AO_1006[label="{AO_1006|Ambience}", fillcolor="#73add8bb"];
+  AO_1007[label="{AO_1007|Narrator}", fillcolor="#73add8bb"];
+  AO_1008[label="{AO_1008|Music}", fillcolor="#73add8bb"];
+}
