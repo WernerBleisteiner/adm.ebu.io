@@ -9,10 +9,9 @@ theme:
 extra_css:
   - 'css/fig_captions.css'
 use_directory_urls: false
-extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-#extra_javascript:
-#  - javascripts/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+# MathJax is loaded with a Subresource Integrity hash from custom_theme/main.html
+# instead of here, since mkdocs' extra_javascript option has no way to set
+# integrity/crossorigin attributes.
 markdown_extensions:
   - mdx_math
   - codehilite
