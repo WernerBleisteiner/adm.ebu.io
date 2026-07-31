@@ -1,7 +1,9 @@
+<!-- This page needs to be kept in sync with admig/ibc2026.md -->
+
 ## ADM-IG@IBC2026
-<!-- This version is only for the time of IBC the landing page-->
+
 ### ADM-IG PARTNER BOOTHS AT IBC
-**Stop by our partners and get informed how ADM is implemented in pioneering products**
+Stop by and get informed how ADM is already implemented in pioneering products.
 
 
 ![](admig/img/ADM-IG@EBU@IBC-2026v09.png)
@@ -15,9 +17,7 @@ Experts from ADM-IG partners will demo ADM applications and workflows at the ADM
 |DAY  \ SLOT | FRI SEP 11 | SAT SEP 12 | SUN SEP 13 | MON SEP 14 |
 |-------|------------|------------|------------|------------|
 forenoon (e.g. 11:00)| | | | |
-afternoon (e.g. 15:00)| | <span style="color:red">***EBU OpenSource Meet-up <br> feat. ADM pitch***</span> | | |
-
-**Following the *Open Source Meet-up* at the EBU stand, ADM-IG will have an open meeting for all current and future partners and interested parties. Join us!**
+afternoon (e.g. 15:00)| | none (EBU OpenSource Meet-up)| | |
 
 
 ### JOIN ADM-IG
@@ -35,4 +35,4 @@ By registerting you will be added to th ADM-IG mail-reflector and receive genera
 You'll be in good company!
 ![](admig/img/ss-ADM-IG-Main-MEMBERS-072026.png)
 
-#[**Go here for the adm.ebu.io main page**](index-reg.md)
+#[**Go here for the regular adm.ebu.io landing page**](index-reg.md)
