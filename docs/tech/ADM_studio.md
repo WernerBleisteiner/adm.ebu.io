@@ -1,4 +1,4 @@
-# The ADM Studio Set-up
+# The ADM Studio - The *Stage 3* ADM*2*NGA Workflow for NGA
 
 
 ![](img/EBU-PTS2026-Set-up-v1.drawio-20260217-Demo.drawio.png)

@@ -4,7 +4,7 @@
 
 The Audio Definition Model (ADM) is an ITU standard metadata model for describing the technical properties of audio. ADM metadata can be attached to audio files to ensure the audio is correctly handled.
 
-## Resources
+## Important Topics
 
  * [**What is the ADM/S-ADM?**](background/what_is_the_adm.md) - What the ADM is (and isn't), and why it is needed.
  * [**ADM Guidelines**](guidelines/tutorial/overall.md) - ADM tutorial and guidelines.
@@ -14,8 +14,9 @@ The Audio Definition Model (ADM) is an ITU standard metadata model for describin
 <!-- * [**Test material**](tech/test_files.md) - Test materal and licence.->>
 <!--* [**Who is using the ADM**](documents/adm_users.md) - Organisations and companies using or developing the ADM/S-ADM.-: Better covered by ADM-IG for now -->
  * [**Webinars**](documents/webinars.md) - ADM-related webinars.
- * [**ADM-IG**](admig/admig.md) - The EBU hosted ADM Implementers Group
- * [**Acknowledgement**](admig/acknowledgements.md)
+ * [**ADM workflows**](tech/workflows.md) - A High Level view
+ * [**ADM-IG**](admig/admig.md) - The ADM Implementers Group
+ * [**Acknowledgements**](admig/acknowledgements.md)
 
 <!--* [**Events**](admig/events.md) - Trade shows, conferences and plugfests.
  * [**To do list**](admig/to-do-list.md) - Tasks, challenges and beyond.

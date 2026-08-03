@@ -1,4 +1,4 @@
-# ADM WORKFLOWS
+# ADM WORKFLOWS - A High Level View
 
 There are three obvious workflows for ADM that broadcaster can build-upon.
 
@@ -14,6 +14,7 @@ when migrating from conventional "legacy" audio production to object-based and N
   - (semi-)automation possible for all workflows
   - enabling on-air and on-demand delivery with *MULTI-AUDIO*
 
+->[ADM2Legacy](ADM4Legacy-OnDemand.md) shows more details of this stage.
 
 ## STAGE 2. ADM*2*Legacy
 
@@ -25,6 +26,8 @@ when migrating from conventional "legacy" audio production to object-based and N
      - sources and stems kept seperately (smaller track counts)
      - multiple rendering format as required (2.0, 5.1. 5.1.4, binaural)
      - enabling on-air and on-demand delivery with *MULTI-AUDIO*
+
+->[ADM2NGA](ADM2Legacy.md) shows more details of this stage.
 
 ## STAGE 3. ADM*2*NGA
 
@@ -39,4 +42,4 @@ when migrating from conventional "legacy" audio production to object-based and N
     - Audio Description
     - Immersive Reproduction
 
-    ->The [ADM Studio Set-up](ADM_studio.md) is a paradigmatic implemenation of this stage.
+->The [ADM Studio](ADM_studio.md) is a paradigmatic implementation of this stage.
