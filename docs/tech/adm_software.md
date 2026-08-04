@@ -63,7 +63,7 @@
    →'pmd_tool' is a command line utility that converts between the following representations of professional audio metadata:   
        - ADM/Serial ADM Metadata as defined in ITU Rec. BS. 2076/2125      
        - SMPTE ST 2116 PMD as defined in SMPTE RDD49 metadata    
-
+     
 * [**Dolby FM41 Player**](https://github.com/DolbyLaboratories/fm-41-player)            
    → 'fm-41-player' is a C++ command-line transmitter for SMPTE ST 2110-41 fast metadata. This player supports two payloads or modes of operation:
        - Serialized ADM (S-ADM) as per SMPTE ST 2127-2
@@ -126,23 +126,37 @@ The repo [MPEG-H & ADM Test Content](https://github.com/Fraunhofer-IIS/mpegh-tes
 ### ADM OSC
 
 * [**ADM OSC**](https://github.com/immersive-audio-live/ADM-OSC)    
-   -> joint open source project to apply ADM for live environments, intitiated by Radio France, FLUX and L-Acoustics, supported by d&b, Dolby, Lawo, Merging Tecnologies, Steinberg and others. 
+   -> joint Open Source project to apply ADM for live equipment, intitiated by Radio France, FLUX and L-Acoustics, supported by d&b, Dolby, Lawo, Merging Tecnologies, Steinberg and others. 
 
 
 
 ## TESTING & QC TOOLS
 
 ### MediaArea
-* [**MediaInfo**](https://mediaarea.net/en/MediaInfo/Download)
-* [**MediaConch**](https://mediaarea.net/MediaConch)
-* [**BWF MetaEdit**](https://mediaarea.net/BWFMetaEdit)
-* [**QCTools**](https://mediaarea.net/QCTools)
+* [**MediaInfo**](https://mediaarea.net/en/MediaInfo/Download)    
+   -> For years, the de-facto standard tool for gathering madia specs supports all ADM profiles and display its properties in depth. As a bonus, it also creates a visual represenantion of its structure    
+   
+* [**MediaConch**](https://mediaarea.net/MediaConch)    
+   -> This tool allows to individually define constraints for conformance checks for delivery specifications. you may adapt this for your specific ADM requirements
+   
+* [**QCTools**](https://mediaarea.net/QCTools)    
+   -> A multi-purpose quality controll app for AV assets
+
+* [**BWF MetaEdit**](https://mediaarea.net/BWFMetaEdit)    
+   -> Standard tool to parse and edit BWF contained metadata (BW64 pending). It also supports display, editing and export of ADM's <axml\> chunk (<chna\> is retained though)     
+
+ 
+
 
 ### SMPTE
 * [**Online Reg-XML MXF Dump Tool**](https://registry.smpte-ra.org/apps/regxmldump/view/development/)    
    USER: smpte    
    PASSWORD: smpte
+   -> Universal tool to parse MXF header metadata. Given that ADM is wrapped properly into MXF (Profile signalling, MCA labelling etc.), its key specs will be containd here, too.
 
 ### MYRIADBITS
 
-* [**MXFInspect**](https://github.com/Myriadbits/MXFInspect)
+* [**MXFInspect**](https://github.com/Myriadbits/MXFInspect)    
+   -> A free tool (Windows only) to display the internal structure of a MXF
+   
+ 
