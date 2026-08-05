@@ -13,8 +13,7 @@ ADM-IG and its members have will be participating and presenting ADM/S-ADM at fo
    Presentation on ADM/S-ADM Broadcast Implementation from BR
 
 * **MXF Plugfest 2026** 3-5/11/2026 at ARD-HR Frankfurt    
-     -> If you want to participate at the *MXF Plugfest 2026*  take a look at this [EBU Events page](https://tech.ebu.ch/events/2026/mxf-interop-plugfest-2026).     
-     You may register directly via <a href="https://forms.cloud.microsoft/pages/responsepage.aspx?id=XQnKvNSI-EKCYMwha4H2LZwWMVImtw9Aq6nCwAaA9b9URFNSMkw1WkNDWlZENTdNRUk5WTM5MEdKRS4u&route=shorturl" target="_blank">this link</a>  or get in contact with the organisers by mail via [mxf-plugfest@ard-mail.de](mailto:mxf-plugfest@ard-mail.de)
+     -> Go to [*MXF Plugfest 2026*](https://mxf-plugfest.eu) for more info and registration
 
 * [**ADM-IG 2nd ADM Plugfest**](plugfest2.md) *TBC*
 
