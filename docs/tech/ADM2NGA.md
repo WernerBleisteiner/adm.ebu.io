@@ -1,4 +1,4 @@
-# ADM*2*Legacy - The *Stage 2* Advanced Production   
+# ADM*2*NGA - The *Stage 3*    
 
 The hurdle to use geunine ADM in production has become low, as today's archtitectures and formats already offer ADM capabilities (like in [*SMPTE 2110-31: AES3 in IP*, *2110-41: fast metadata in IP*, *ST 2127-10: S-ADM in MXF* or *ST2131: ADM in MXF*). Also, state-of-the-art DAW and NLE tools can author ADM in various profiles.    
 Lots of broadcast productions such as radio dramas, TV movies, Sports events, Shows etc. already use ADM - in the background.    
@@ -9,8 +9,13 @@ Take adavantge of leaner track-layouts, versatile routing, and flexible, metadat
 And fust render the required output formats for different platforms in-house: *Hosted rendering*)
 
 
-This [**STAGE 2**](workflows.md) workflow shows the possibilities for both *On-Air Broadcasting* and *On-Demand Streaming*
+These [**STAGE 3**](workflows.md) workflows shows the possibilities
+
+### A. On-Air Broadcasting###
+
+![](img/ADM-STUDIO-GENERIC-BROADCAST-2NGA.png)
 
 
+### B. On-Demand Streaming###
 
-![](img/File-based-ADM2Legacy-Workflow.png)
+![](img/ADM-STUDIO-GENERIC-3Codecs.png)
