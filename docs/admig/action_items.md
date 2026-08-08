@@ -16,7 +16,8 @@ Presently we're working on this
    First published in 2021, both EBU recommendations early on pointed the way to adapt novel principles through  intelligent and lean 'audio-object-track-assignments' applying ADM.  
    The ADM related audio section of both need to be updated as meanwhile essential new standards have been set in [ITU-R BS.2168-0](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2168-0-202502-I!!PDF-E.pdf), [SMPTE ST 2110-31](https://pub.smpte.org/doc/st2110-31/), [SMPTE ST 2110-41](https://pub.smpte.org/doc/st2110-41/), [SMPTE ST 2127](https://pub.smpte.org/doc/st2127-10/) and [SMPTE ST2131](https://pub.smpte.org/doc/st2131/).
 
- * Exploring enhanced ADM interop of [bmx](https://github.com/ebu/bmx) with functionalities such as
+ * **Enhance ADM interop of [bmx](https://github.com/ebu/bmx)**     
+    with functionalities such as
     - *profile signalling* (https://github.com/ebu/bmx/issues/29)
     - *mca label* creation
     - *direct injection* of ADM metadata into MXF
@@ -31,7 +32,7 @@ Presently we're working on this
 
 
 
- * ...
+
 
 
 

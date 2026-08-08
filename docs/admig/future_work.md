@@ -2,11 +2,12 @@
 
 Desiderata include:
 
-* Basic ADM capabilities for *FFmpeg* such as
-    - parse & exctract <axml> and <chna>
-    - insert <axml> and <chna>
-    - parse and display major ADM properties, e.g. ADM Version, Profile, number of contained audioProgrammes,
-      audioCntents, audioObjects, trackUIDs
+* Essential ADM capabilities for ***FFmpeg*** such as
+    - parse and display major ADM properties, e.g. ADM Version, Profile, numbers of contained audioProgrammes, audioContents, audioObjects, trackUIDs    
+    - forward <axml\> and <chna\> in BWF/BW64 and MXF wrapping 
+    
+    
+    
 
 
 
