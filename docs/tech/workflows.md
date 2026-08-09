@@ -12,10 +12,10 @@ when migrating from conventional "legacy" audio production to object-based and N
 For existing conventional channel-based production and distribution workflows
 
   - no object-based/NGA production and rendering required
-  - ADM applied only as inherent descriptor for tech specs of file
-  - no (more) sidecar file workflows required
-  - enabling track-routing and (semi-)automation for all workflows
-  - driving on-air and on-demand delivery for *MULTI-AUDIO*
+  - ADM applied only as inherent descriptor for tech specs of file (track-layout, audio format content type, languages, loudness etc.)
+  - no (more) sidecar file workflows or paperwork required
+  - enabling track-routing and automation in workflows
+  - driving on-air and on-demand *MULTI-AUDIO* delivery
 
 ->[ADM2Legacy](ADM4Legacy-OnDemand.md) shows more details of this stage.
 
@@ -23,14 +23,14 @@ For existing conventional channel-based production and distribution workflows
 
 ![](img/ADM-WF-ADM2Legacy-v05.png)
 
-First migration step to benefit from leaner object-based ADM production techniques - without yet NGA delivery options 
+First migration step to benefit from efficient object-based ADM production techniques - without (yet) NGA delivery options 
 
-- ADM applied for genuine object-based mixes
-- delivery to conventional, "legacy" audio codecs requires hosted rendering
+- ADM/S-ADM applied for genuine object-based mixes
+- delivery to conventional, "legacy" channel-based audio codecs requires *hosted ADM rendering*
 - benefits are:
-     - sources and stems kept seperately (smaller track counts)
-     - multiple rendering format as required (2.0, 5.1. 5.1.4, binaural)
-     - enabling on-air and on-demand delivery with *MULTI-AUDIO*
+     - sources and stems kept seperately (smaller track counts, re-usability)
+     - scalable, multiple rendering format as required (2.0, 5.1. 5.1.4, binaural)
+     - driving on-air and on-demand *MULTI-AUDIO* delivery
 
 ->[ADM2NGA](ADM2Legacy.md) shows more details of this stage.
 
@@ -40,13 +40,14 @@ First migration step to benefit from leaner object-based ADM production techniqu
 
 Ultimate move to end-to-end ADM-NGA production and delivery chain.
 
-  - ADM applied for genuine object-based mixes
-  - sources and stems kept seperately (smaller track counts)
-  - enabling conversion into mutliple NGA codecs (AC-4, MPEG-H, Eclipsa)
-    as required by platform
-  - rendering on NGA capable end-user device allows ultimate personalisation for
+  - ADM/S-ADM applied for genuine object-based mixes
+  - sources and stems kept seperately (smaller track counts, re-usability)
+  - enabling conversion into mutliple NGA codecs (*AC-4*, *MPEG-H*, *Eclipsa*)
+    as required by platforms
+  - only one NGA audio stream provisioned
+  - rendering on NGA capable device allows user best possible personalisation for
     - Speech Intelligibility,
     - Audio Description
-    - Immersive Reproduction
+    - Immersive Reproduction et. al. 
 
 ->The [ADM Studio](ADM_studio.md) is a paradigmatic implementation of this stage.
