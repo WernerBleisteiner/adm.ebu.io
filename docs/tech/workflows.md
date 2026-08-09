@@ -9,7 +9,7 @@ when migrating from conventional "legacy" audio production to object-based and N
 
 ![](img/ADM-WF-ADM4Legacy-v05.png)
 
-For existing conventinal channel-based production and distribution workflows
+For existing conventional channel-based production and distribution workflows
 
   - no object-based/NGA production and rendering required
   - ADM applied only as inherent descriptor for tech specs of file
@@ -38,7 +38,7 @@ First migration step to benefit from leaner object-based ADM production techniqu
 
 ![](img/ADM-WF-ADM2NGA-v05.png)
 
-Ultimate move to end-to-end ADM-NGA production and delivry chain.
+Ultimate move to end-to-end ADM-NGA production and delivery chain.
 
   - ADM applied for genuine object-based mixes
   - sources and stems kept seperately (smaller track counts)
