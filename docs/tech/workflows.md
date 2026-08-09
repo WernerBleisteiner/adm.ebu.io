@@ -9,16 +9,21 @@ when migrating from conventional "legacy" audio production to object-based and N
 
 ![](img/ADM-WF-ADM4Legacy-v05.png)
 
-  - ADM MXF (ST2131) contains essential info about contained assets
-  - no sidecar file workflows required
-  - (semi-)automation possible for all workflows
-  - enabling on-air and on-demand delivery with *MULTI-AUDIO*
+For existing conventinal channel-based production and distribution workflows
+
+  - no object-based/NGA production and rendering required
+  - ADM applied only as inherent descriptor for tech specs of file
+  - no (more) sidecar file workflows required
+  - enabling track-routing and (semi-)automation for all workflows
+  - driving on-air and on-demand delivery for *MULTI-AUDIO*
 
 ->[ADM2Legacy](ADM4Legacy-OnDemand.md) shows more details of this stage.
 
 ## STAGE 2. ADM*2*Legacy
 
 ![](img/ADM-WF-ADM2Legacy-v05.png)
+
+First migration step to benefit from leaner object-based ADM production techniques - without yet NGA delivery options 
 
 - ADM applied for genuine object-based mixes
 - delivery to conventional, "legacy" audio codecs requires hosted rendering
@@ -32,6 +37,8 @@ when migrating from conventional "legacy" audio production to object-based and N
 ## STAGE 3. ADM*2*NGA
 
 ![](img/ADM-WF-ADM2NGA-v05.png)
+
+Ultimate move to end-to-end ADM-NGA production and delivry chain.
 
   - ADM applied for genuine object-based mixes
   - sources and stems kept seperately (smaller track counts)
