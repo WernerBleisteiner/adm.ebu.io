@@ -49,6 +49,7 @@ Ultimate move to end-to-end ADM-NGA production and delivery chain.
   - rendering on NGA capable device allows user best possible personalisation for    
      -> Speech Intelligibility    
      -> Multi-Language/Audio Description    
-     -> Immersive Reproduction et. al.    
+     -> Immersive Reproduction    
+     -> Loudness Adaptability et. al.
 
 ->The [ADM Studio](ADM_studio.md) is a paradigmatic implementation of this stage.
