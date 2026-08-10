@@ -17,6 +17,13 @@ It's a complete [**STAGE 3**](workflows.md) production and play-out chain for AD
 
 ![](img/ADM-Studio-EBU-PTS2026.jpg)
 
+This video explains the set-up as presented at EBU PTS 20260
+
+<!--![](img/ADM-IG-StudioSetUp-PTS2026.mp4)--    SERVES NO AUDIO IN PREVIEW-->
+
+<video width="640" height="480" controls>
+  <source src="img/ADM-IG-StudioSetUp-PTS2026-720.mp4" type="video/mp4">
+</video>
 
 
 <!--[](img/ADM-IG_EBU_PTS_2026_Demo_Report.pdf)-- would require plug-in to attach and view PDF-->
