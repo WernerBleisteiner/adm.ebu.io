@@ -14,7 +14,7 @@ The Audio Definition Model (ADM) is an ITU standard metadata model for describin
 <!-- * [**Test material**](tech/test_files.md) - Test materal and licence.->>
 <!--* [**Who is using the ADM**](documents/adm_users.md) - Organisations and companies using or developing the ADM/S-ADM.-: Better covered by ADM-IG for now -->
  * [**Webinars**](documents/webinars.md) - ADM-related webinars.
- * [**ADM workflows**](tech/workflows.md) - A High Level view
+ * [**ADM migration**](tech/migration.md) - 3 steps to follow
  * [**ADM-IG**](admig/admig.md) - The ADM Implementers Group
  * [**Acknowledgements**](admig/acknowledgements.md)
 

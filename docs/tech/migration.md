@@ -1,11 +1,13 @@
-# ADM WORKFLOWS - A High Level View
+# ADM MIGATION PATH - High Level Views
 
-There are three obvious workflows for ADM that broadcaster can build-upon.
+There are three obvious steps for broadcasters to migrate to ADM.
 
-Step-by-step they also form a gradual way of implementation and adding complexity
-when migrating from conventional "legacy" audio production to object-based and NGA delivery
+One-by-one they form a gradual way of implementation and adding complexity when    
+**advancing from conventional - "*legacy*" - audio to object-based production and NGA delivery**
 
-## STAGE 1. ADM*4*Legacy
+
+
+## STEP 1. ADM*4*Legacy
 
 ![](img/ADM-WF-ADM4Legacy-v05.png)
 
@@ -20,7 +22,7 @@ For existing conventional channel-based production and distribution workflows
 
 ->[ADM2Legacy](ADM4Legacy-OnDemand.md) provides more details of this stage.
 
-## STAGE 2. ADM*2*Legacy
+## STEP 2. ADM*2*Legacy
 
 ![](img/ADM-WF-ADM2Legacy-v05.png)
 
@@ -35,7 +37,7 @@ First migration step to benefit from efficient object-based ADM production techn
 
 ->[ADM2NGA](ADM2Legacy.md) provides more details of this stage.
 
-## STAGE 3. ADM*2*NGA
+## STEP 3. ADM*2*NGA
 
 ![](img/ADM-WF-ADM2NGA-v05.png)
 
@@ -49,7 +51,7 @@ Ultimate move to end-to-end ADM-NGA production and delivery chain.
   - rendering on NGA capable device allows user best possible personalisation for    
      -> Speech Intelligibility    
      -> Multi-Language/Audio Description    
-     -> Immersive Reproduction    
-     -> Loudness Adaptability et. al.
+     -> Immersive Reproduction
+     -> Loudness Adaptability et. al.    
 
 ->The [ADM Studio](ADM_studio.md) is a paradigmatic implementation of this stage.

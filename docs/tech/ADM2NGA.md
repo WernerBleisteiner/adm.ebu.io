@@ -1,4 +1,4 @@
-# ADM*2*NGA - The *Stage 3*    
+# ADM*2*NGA - The *Step 3*    
 
 The hurdle to use geunine ADM in production has become low, as today's archtitectures and formats already offer ADM capabilities (like in [*SMPTE 2110-31: AES3 in IP*, *2110-41: fast metadata in IP*, *ST 2127-10: S-ADM in MXF* or *ST2131: ADM in MXF*). Also, state-of-the-art DAW and NLE tools can author ADM in various profiles.    
 Lots of broadcast productions such as radio dramas, TV movies, Sports events, Shows etc. already use ADM - in the background.    
