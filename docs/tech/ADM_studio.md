@@ -1,10 +1,10 @@
-# The ADM Studio - The definitive *Stage 3* ADM*2*NGA Workflow
+# The ADM Studio - The definitive *Step 3* ADM*2*NGA Workflow
 
 
 ![](img/EBU-PTS2026-Set-up-v1.drawio-20260217-Demo.drawio.png)
 
 The *ADM Studio Set-up* was first presented at EBU Production Technology Seminar 2026 in Geneva.
-It's a complete [**STAGE 3**](workflows.md) production and play-out chain for ADM and S-ADM including
+It's a complete [**STEP 3**](migration.md) production and play-out chain for ADM and S-ADM including
 
    - ADM-BW64 audio files according to the *ADM Production Profile*
    - conversion ("squeezing") into the ADM *AdvSS Emission Profile*

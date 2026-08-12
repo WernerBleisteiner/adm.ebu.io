@@ -84,7 +84,7 @@ nav:
         - EBU documents: 'documents/ebu_documents.md'
         - ADM related software: 'tech/adm_software.md'
   - ADM Migration Path:
-        - ADM migration: 'tech/migration.md'
+        - Overview: 'tech/migration.md'
         - Step 1 - ADM4Legacy: 'tech/ADM4Legacy-OnDemand.md'
         - Step 2 - ADM2Legacy: 'tech/ADM2Legacy.md'
         - Step 3 - ADM4NGA: 'tech/ADM2NGA.md'

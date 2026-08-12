@@ -9,7 +9,7 @@ Take adavantge of leaner track-layouts, versatile routing, and flexible, metadat
 And fust render the required output formats for different platforms in-house: *Hosted rendering*)
 
 
-This [**STAGE 2**](workflows.md) workflow shows the possibilities for both *On-Air Broadcasting* and *On-Demand Streaming*
+This [**STEP 2**](migration.md) workflow shows the possibilities for both *On-Air Broadcasting* and *On-Demand Streaming*
 
 
 

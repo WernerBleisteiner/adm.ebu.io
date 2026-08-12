@@ -1,4 +1,4 @@
-# ADM MIGATION PATH - High Level Views
+# ADM MIGATION PATH - OVERVIEW
 
 There are three obvious steps for broadcasters to migrate to ADM.
 
