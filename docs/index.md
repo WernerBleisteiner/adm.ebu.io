@@ -1,5 +1,7 @@
-## ADM-IG@IBC2026
 <!-- This version is only for the time of IBC the landing page-->
+
+## ADM-IG@IBC2026
+
 ### ADM-IG PARTNER BOOTHS AT IBC
 **Stop by our partners and get informed how ADM is implemented in pioneering products**
 
@@ -29,7 +31,7 @@ Hit the pic.
 
 <a href="https://tech.ebu.ch/groups/adm-ig" target="_blank"><img src="admig/img/EBU-ADM-IG-Site.jpeg"></a>
 
-By registerting you will be added to th ADM-IG mail-reflector and receive general information and invitations to join our regular workstreams calls.
+By registering you will be added to th ADM-IG mail-reflector and receive general information and invitations to join our regular workstreams calls.
 
 
 You'll be in good company!
