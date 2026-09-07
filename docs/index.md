@@ -14,10 +14,10 @@ Experts from ADM-IG partners will demo ADM applications and workflows at the ADM
 
 |DAY  \ SLOT | FRI SEP 11 | SAT SEP 12 | SUN SEP 13 | MON SEP 14 |
 |-------|------------|------------|------------|------------|
-forenoon (e.g. 11:00)| | | | |
-afternoon (e.g. 15:00)| | <span style="color:red">***EBU OpenSource Meet-up <br> feat. ADM pitch***</span> | | |
+forenoon | 11:00 ADM with *MPEG-H*|11:00 EBU QC Meet-up <br> feat. ADM | 9:30 ADM-IG Meetup | 11:00 ADM with *MPEG-H*|
+afternoon |13:00 ADM Tools from *NHK* | 13:00 ADM Tools from *NHK*  <br> 15:00 ADM in *Marquise MIST* <br> <span style="color:red">16:00 EBU OpenSource<br> Meet-up feat. ADM</span> | | |
 
-**Following the *Open Source Meet-up* at the EBU stand, ADM-IG will have an open meeting for all current and future partners and interested parties. Join us!**
+**Sunday at 9:30 at the EBU stand, ADM-IG will have an open meeting for all current and future partners and interested parties. Join us!**
 
 
 ### JOIN ADM-IG
