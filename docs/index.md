@@ -1,6 +1,6 @@
 # The Audio Definition Model
 
-## What is it?
+## What is the ADM?
 
 The Audio Definition Model (ADM) is an ITU standard metadata model for describing the technical properties of audio. ADM metadata can be attached to audio files to ensure the audio is correctly handled. 
 
