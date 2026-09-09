@@ -1,6 +1,6 @@
 <!-- This version is only for the time of IBC the landing page-->
 
-## ADM-IG@IBC2026
+## What is the ADM?
 
 ### ADM-IG PARTNER BOOTHS AT IBC
 **Stop by our partners and get informed how ADM is implemented in pioneering products**
