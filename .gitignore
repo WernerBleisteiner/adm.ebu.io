@@ -1,5 +1,10 @@
 site/
+site/
 docs/guidelines/reference/.DS_Store
 docs/guidelines/.DS_Store
+/.bups
+docs/.DS_Store
+.DS_Store
+
 docs/.DS_Store
 .DS_Store
