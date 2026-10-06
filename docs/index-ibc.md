@@ -1,9 +1,9 @@
-<!-- This page needs to be kept in sync with admig/ibc2026.md -->
+<!-- This version is only for the time of IBC the landing page-->
 
-## ADM-IG@IBC2026
+## What is the ADM?
 
 ### ADM-IG PARTNER BOOTHS AT IBC
-Stop by and get informed how ADM is already implemented in pioneering products.
+**Stop by our partners and get informed how ADM is implemented in pioneering products**
 
 
 ![](admig/img/ADM-IG@EBU@IBC-2026v09.png)
@@ -17,7 +17,7 @@ Experts from ADM-IG partners will demo ADM applications and workflows at the ADM
 |DAY  \ SLOT | FRI SEP 11 | SAT SEP 12 | SUN SEP 13 | MON SEP 14 |
 |-------|------------|------------|------------|------------|
 forenoon | 11:00 ADM with *MPEG-H*|11:00 EBU QC Meet-up <br> feat. ADM | 9:30 ADM-IG Meetup | 11:00 ADM with *MPEG-H*|
-afternoon |13:00 ADM Tools from *NHK* | 13:00 ADM Tools from *NHK*  <br> 15:00 ADM in *Marquise MIST* <br> <span style="color:red">16:00 EBU OpenSource<br> Meet-up feat. ADM</span> | | |
+afternoon |13:00 ADM Tools from *NHK* | 13:00 ADM Tools from *NHK*  <br> 15:00 ADM in *Marquise MIST* <br> <span style="color:red">16:00 EBU OpenSource<br> Meet-up feat. ADM</span> |15:00 ADM with MPEG-H| |
 
 **Sunday at 9:30 at the EBU stand, ADM-IG will have an open meeting for all current and future partners and interested parties. Join us!**
 
@@ -37,4 +37,4 @@ By registering you will be added to th ADM-IG mail-reflector and receive general
 You'll be in good company!
 ![](admig/img/ss-ADM-IG-Main-MEMBERS-072026.png)
 
-#[**Go here for the regular adm.ebu.io landing page**](index-reg.md)
+#[**Go here for the adm.ebu.io main page**](index-reg.md)

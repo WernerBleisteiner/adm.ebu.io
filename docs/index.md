@@ -1,40 +1,28 @@
-<!-- This version is only for the time of IBC the landing page-->
+<!-- This is the defaukt landing page -->
 
-## What is the ADM?
+<!--# The Audio Definition Model-->
 
-### ADM-IG PARTNER BOOTHS AT IBC
-**Stop by our partners and get informed how ADM is implemented in pioneering products**
+![](img/adm-ebu-io-header-pic-transp.png)
 
+## What is it?
 
-![](admig/img/ADM-IG@EBU@IBC-2026v09.png)
+The Audio Definition Model (ADM) is an ITU standard metadata model for describing the technical properties of audio. ADM metadata can be attached to audio files to ensure the audio is correctly handled.
 
+## Important Topics
 
-### DEMOS @ EBU 10.D21
-Experts from ADM-IG partners will demo ADM applications and workflows at the ADM-IG hub.
+ * [**What is the ADM/S-ADM?**](background/what_is_the_adm.md) - What the ADM is (and isn't), and why it is needed.
+ * [**ADM Guidelines**](guidelines/tutorial/overall.md) - ADM tutorial and guidelines
+ * [**ADM Standards**](documents/adm_standards.md) - List of standards that reference ADM/S-ADM
+ * [**EBU Documents**](documents/ebu_documents.md) - EBU ADM/S-ADM related public documents
+ * [**ADM Software**](tech/adm_software.md) - Tools and libraries for the ADM/S-ADM
+ * [**ADM Best Practices**](best_practices/overview.md) - How to use ADM in workfows, formats and deliverables
+<!-- * [**Test material**](tech/test_files.md) - Test materal and licence.->>
+<!--* [**Who is using the ADM**](documents/adm_users.md) - Organisations and companies using or developing the ADM/S-ADM.-: Better covered by ADM-IG for now -->
+ * [**ADM Webinars**](documents/webinars.md) - ADM-related webinars
+ * [**ADM Migration**](tech/migration.md) - 3 steps to follow
+ * [**ADM-IG**](admig/admig.md) - The ADM Implementers Group
+ * [**Acknowledgements**](admig/acknowledgements.md)
 
-#### SCHEDULE:
-
-|DAY  \ SLOT | FRI SEP 11 | SAT SEP 12 | SUN SEP 13 | MON SEP 14 |
-|-------|------------|------------|------------|------------|
-forenoon | 11:00 ADM with *MPEG-H*|11:00 EBU QC Meet-up <br> feat. ADM | 9:30 ADM-IG Meetup | 11:00 ADM with *MPEG-H*|
-afternoon |13:00 ADM Tools from *NHK* | 13:00 ADM Tools from *NHK*  <br> 15:00 ADM in *Marquise MIST* <br> <span style="color:red">16:00 EBU OpenSource<br> Meet-up feat. ADM</span> |15:00 ADM with MPEG-H| |
-
-**Sunday at 9:30 at the EBU stand, ADM-IG will have an open meeting for all current and future partners and interested parties. Join us!**
-
-
-### JOIN ADM-IG
-
-Join-in - Stay informed - Get involved      
-Hit the pic.
-
-<!--[<img src="docs/admig/img/EBU-ADM-IG-Site.jpeg">](https://tech.ebu.ch/groups/adm-ig)-->
-
-<a href="https://tech.ebu.ch/groups/adm-ig" target="_blank"><img src="admig/img/EBU-ADM-IG-Site.jpeg"></a>
-
-By registering you will be added to th ADM-IG mail-reflector and receive general information and invitations to join our regular workstreams calls.
-
-
-You'll be in good company!
-![](admig/img/ss-ADM-IG-Main-MEMBERS-072026.png)
-
-#[**Go here for the adm.ebu.io main page**](index-reg.md)
+<!--* [**Events**](admig/events.md) - Trade shows, conferences and plugfests.
+ * [**To do list**](admig/to-do-list.md) - Tasks, challenges and beyond.
+ * [**ADM-IG@EBU@IBC2026**](admig/ibc2026.md) - Meet us there! -->

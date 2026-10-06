@@ -89,6 +89,7 @@ nav:
         - EBU documents: 'documents/ebu_documents.md'
         - ADM related software: 'tech/adm_software.md'
   - ADM Best Practices:
+        - Overview: 'best_practices/overview.md'
         - MXF & IMF Best Practice: 'best_practices/mxf_imf.md'
         - ADM Profiles & Levels Labels: 'best_practices/adm_profiles_levels_table.html'
   - ADM Migration Path:

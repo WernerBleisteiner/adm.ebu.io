@@ -31,7 +31,8 @@
    At present, only BS.2076-2 compliant files are generated.
 
 * [**EAT - EBU ADM TOOLBOX**](https://github.com/ebu/ebu-adm-toolbox)    
-   → A set of tools for processing ADM files. It can convert ADM files between profiles, validate them, render them, fix common issues, and more.
+   → A set of tools for processing ADM files. It can convert ADM files between profiles, validate them, render them, fix common issues, and more.    
+     For details on how EAT works and processes can be designed, see the [Documentation](https://ebu-adm-toolbox.readthedocs.io/en/latest/#)
 
 
 * [**ADM Common Definition XML Generator**](https://github.com/bbc/adm_common_def_gen)    
