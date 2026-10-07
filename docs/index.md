@@ -1,7 +1,7 @@
 <!-- This is the defaukt landing page -->
 
 <!--# The Audio Definition Model-->
-
+#
 ![](img/adm-ebu-io-header-pic-transp.png)
 
 ## What is it?
