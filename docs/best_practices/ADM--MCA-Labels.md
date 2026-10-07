@@ -23,7 +23,7 @@ Emergency (only)| `<dialogue dialogueContentKind="6“>1</dialogue>` |  Notfalla
 
 ### CONTENT KIND MCA LABELS
 
-Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub/)
+Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub/)    
 
 |   **TYPE**  |**German Terms**|  MCA CONTENT | MCA SYMBOL| MCA USE CLASS|
 --------------|----------------|--------------|-----------|--------------|    
@@ -44,7 +44,8 @@ Emergency |  Notfallansage| n/a | n/a | n/a |
  (Silence) |  (Stille) | Silence | MOS | FCMP/SMPL |
 
 Note: MCA Content Labels do not conider "objects" - only composites and elements.
-To distinguish these it defines USE Classes
+To distinguish these it defines USE Classes    
+
 |     MCA use Class  | Symbol | Definition |
 ---------------------|--------|------------|
 Finished Composite   | FCMP   |The associated MCA Content is a composite, complete work and need not be mixed prior to presentation. It can be mixed with other Soundfield Groups to create other particular desired content per the allowed combinations in Table 4.|
