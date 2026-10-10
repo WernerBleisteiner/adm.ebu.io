@@ -2,7 +2,7 @@
 
 <!--# The Audio Definition Model-->
 #
-![](img/adm-ebu-io-header-pic-transp.png)
+![](img/adm-ebu-io-New-Header-v1-transp.png)
 
 ## What is it?
 
