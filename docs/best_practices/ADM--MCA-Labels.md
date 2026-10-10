@@ -1,4 +1,6 @@
-#### CONTENT KIND ADM LABELS
+## ADM and MCA Labels to describe Channel-based Components/Mixes
+
+## CONTENT KIND ADM LABELS
 
 To describe specific content types (e.g. *Complete Main*, *Music & Effects*, *Audio Description Mix* etc.), certain attributes are defined in ADM for <audioContent\> components. In the [*ADM4Legacy* (*Step 1*)](/docs/tech/migration.md##STEP-1.-ADM*4*Legacy) use case, with a strict 1:1 relationship between <audioProgramme\> and <audioConten\>, these are directly referenced.     
 Here's an overview of the most commonly applied types (pinted in **bold**)
@@ -23,7 +25,7 @@ Commentary (only)| `<dialogue dialogueContentKind="5“>1</dialogue>` |Kommentar
 Emergency (only)| `<dialogue dialogueContentKind="6“>1</dialogue>` |  Notfallansage|
 *<span style='color: red;'>TBD: AmbienceCameraSound*    |   *`<dialogue nonDialogueContentKind="4“>0</dialogue>`*| <span style='color: red;'>*Atmo/Kameraton*  |
 
-### CONTENT KIND MCA LABELS
+## CONTENT KIND MCA LABELS
 
 If applied this is applied in MXF OP1-A using [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/), additional singalling of MCA labels is recommended.    
 This table provides an overview how to describe conten types with MCA properties.
@@ -60,7 +62,7 @@ Singular             | SING  | Element contains a single content (such as narrat
 
 Therefore, the MCA Content label descriptors have limited correspondences with the object-based concept of ADM.
 
-##### EXAMPLE
+### EXAMPLE
 The test vector 1.1.6 in the 1st ADM Plugfest (ADM-IG June 2026) was modelled similar to a typical "ADM4Legacy" use case containing different channel-based mixes:
     -Complete Main (Sendeton) 2.0
     -Music & Effects (IT(ME) 2.0
