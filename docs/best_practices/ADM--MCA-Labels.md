@@ -2,7 +2,7 @@
 
 ## Content Kind & ADM Attributes
 
-To describe specific content types (e.g. *Complete Main*, *Music & Effects*, *Audio Description Mix* etc.), certain attributes are defined in ADM for <audioContent\> components. In the [*ADM4Legacy* (*Step 1*)](../tech/migration.md) use case, with a strict 1:1 relationship between <audioProgramme\> and <audioConten\>, these are directly referenced.     
+To describe specific composits ("mixes", e.g. *Complete Main*, *Music & Effects*, *Audio Description Mix* etc.), certain attributes are defined in ADM for <audioContent\> components. In the [*ADM4Legacy* (*Step 1*)](../tech/migration.md) use case, with a strict 1:1 relationship between <audioProgramme\> and <audioConten\>, these are directly referenced.     
 Here's an overview of the most commonly applied types (pinted in **bold**)
 
 Reference: [ITU-R BS.2076-3](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2076-3-202502-I!!PDF-E.pdf) §5.7.3
@@ -27,8 +27,8 @@ Emergency (only)| `<dialogue dialogueContentKind="6“>1</dialogue>` |  Notfalla
 
 ## Content Kind & MCA Labels
 
-If applied this is applied in MXF OP1-A using [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/), additional singalling of MCA labels is recommended.    
-This table provides an overview how to describe conten types with MCA properties (most common types in *bold*)
+If applied in MXF OP1-A using [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/), additional singalling in MCA labels is recommended.    
+This table provides an overview how to describe composits ("mixes") with MCA properties (most common types in *bold*)
 
 Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub/)    
 
@@ -50,8 +50,8 @@ Commentary (only)|Kommentar (allein)| Recorded Commentary | CM | SING |
 Emergency |  Notfallansage| n/a | n/a | n/a |
  (Silence) |  (Stille) | Silence | MOS | FCMP/SMPL |
 
-Note: MCA Content Labels do not conider "objects" - only composites and elements.
-To distinguish these it defines USE Classes    
+Note: MCA Content Labels do not consider "objects"-only composites and elements.
+To distinguish these it defines Use Classes    
 
 |     MCA use Class  | Symbol | Definition |
 ---------------------|--------|------------|
@@ -95,7 +95,7 @@ Note: MCA labels require RFC5646 [IETF language tags](https://datatracker.ietf.o
 
  ```raw2bmx -t op1a -o hessischer_rundfunk_1_2_6__test_i4b_adm_A.mxf --audio-layout adm --track-mca-labels x mca-ADM-label-PF26-TV_1_1_6.txt --adm-wave-chunk axml,urn:smpte:ul:060e2b34.0401010d.04020211.02020000 --wave hessischer_rundfunk_1_1_6_test_i4a_adm_A.wav```
 
- The `urn:smpte:ul:060e2b34.0401010d.04020211.02020000` refers to SMPTE Registry
+ The `urn:smpte:ul:060e2b34.0401010d.04020211.02020000` refers to SMPTE Registry. See [ADM Profiles and Levels Labels] (adm_profiles_levels_table.html) for details.
 
  ```
  <Entry>
