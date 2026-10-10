@@ -1,8 +1,8 @@
-## ADM and MCA Labels to describe Channel-based Components/Mixes
+# ADM Attributes and MCA Labels
 
-## CONTENT KIND ADM LABELS
+## Content Kind & ADM Attributes
 
-To describe specific content types (e.g. *Complete Main*, *Music & Effects*, *Audio Description Mix* etc.), certain attributes are defined in ADM for <audioContent\> components. In the [*ADM4Legacy* (*Step 1*)](/docs/tech/migration.md##STEP-1.-ADM*4*Legacy) use case, with a strict 1:1 relationship between <audioProgramme\> and <audioConten\>, these are directly referenced.     
+To describe specific content types (e.g. *Complete Main*, *Music & Effects*, *Audio Description Mix* etc.), certain attributes are defined in ADM for <audioContent\> components. In the [*ADM4Legacy* (*Step 1*)](../tech/migration.md) use case, with a strict 1:1 relationship between <audioProgramme\> and <audioConten\>, these are directly referenced.     
 Here's an overview of the most commonly applied types (pinted in **bold**)
 
 Reference: [ITU-R BS.2076-3](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2076-3-202502-I!!PDF-E.pdf) §5.7.3
@@ -23,12 +23,12 @@ Spoken Subtitles (only)| `<dialogue dialogueContentKind="3“>1</dialogue>`|Gesp
 AD (only)|         `<dialogue dialogueContentKind="4“>1</dialogue>` |Audiodeskription (allein)|    
 Commentary (only)| `<dialogue dialogueContentKind="5“>1</dialogue>` |Kommentar (allein)|    
 Emergency (only)| `<dialogue dialogueContentKind="6“>1</dialogue>` |  Notfallansage|
-*<span style='color: red;'>TBD: AmbienceCameraSound*    |   *`<dialogue nonDialogueContentKind="4“>0</dialogue>`*| <span style='color: red;'>*Atmo/Kameraton*  |
 
-## CONTENT KIND MCA LABELS
+
+## Content Kind & MCA Labels
 
 If applied this is applied in MXF OP1-A using [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/), additional singalling of MCA labels is recommended.    
-This table provides an overview how to describe conten types with MCA properties.
+This table provides an overview how to describe conten types with MCA properties (most common types in *bold*)
 
 Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub/)    
 
