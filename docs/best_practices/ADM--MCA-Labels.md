@@ -1,7 +1,9 @@
 #### CONTENT KIND ADM LABELS
 
-Reference: [ITU-R BS.2076-3](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2076-3-202502-I!!PDF-E.pdf) §5.7.3
+To describe specific content types (e.g. *Complete Main*, *Music & Effects*, *Audio Description Mix* etc.), certain attributes are defined in ADM for <audioContent\> components. In the [*ADM4Legacy* (*Step 1*)](/docs/tech/migration.md##STEP-1.-ADM*4*Legacy) use case, with a strict 1:1 relationship between <audioProgramme\> and <audioConten\>, these are directly referenced.     
+Here's an overview of the most commonly applied types (pinted in **bold**)
 
+Reference: [ITU-R BS.2076-3](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2076-3-202502-I!!PDF-E.pdf) §5.7.3
 
 |   **TYPE**  | **CODE** (within block `<audioContent>. . .</audioContent>`|**German Terms**|
 --------------|----------------------------------------------------|-----------------------|
@@ -22,6 +24,9 @@ Emergency (only)| `<dialogue dialogueContentKind="6“>1</dialogue>` |  Notfalla
 *<span style='color: red;'>TBD: AmbienceCameraSound*    |   *`<dialogue nonDialogueContentKind="4“>0</dialogue>`*| <span style='color: red;'>*Atmo/Kameraton*  |
 
 ### CONTENT KIND MCA LABELS
+
+If applied this is applied in MXF OP1-A using [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/), additional singalling of MCA labels is recommended.    
+This table provides an overview how to describe conten types with MCA properties.
 
 Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub/)    
 
@@ -63,7 +68,7 @@ The test vector 1.1.6 in the 1st ADM Plugfest (ADM-IG June 2026) was modelled si
     -Original Version (OV) 2.0
     -Complete Main (Sendeton) 5.1
 
-The mca-label.txt filecreated for the conversion/muxing of the BW64-ADM.wav in bmx contained
+The mca-label.txt filecreated for the conversion/muxing of the BW64-ADM.wav in [BMX tool for MXF](https://github.com/ebu/bmx) contained
 
 ```
 0
