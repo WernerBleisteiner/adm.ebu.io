@@ -117,4 +117,3 @@ Notes:
 * Additional automatically populated properties will also be present in each of these Sub-Descriptors. Additional manually populated properties might also be permitted.
 * Although "Operational Mode A" is defined as part of the IMF standards, take this approach even for "standalone" MXF files.
 * "Special requirements" could include, for example, the need to label channel-based ADM/S-ADM content using the same Labels as audio in regular IMF Audio Track Files.
-

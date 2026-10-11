@@ -2,8 +2,8 @@
 
 ## Content Kind & ADM Attributes
 
-To describe specific composits ("mixes", e.g. *Complete Main*, *Music & Effects*, *Audio Description Mix* etc.), certain attributes are defined in ADM for <audioContent\> components. In the [*ADM4Legacy* (*Step 1*)](../tech/migration.md) use case, with a strict 1:1 relationship between <audioProgramme\> and <audioConten\>, these are directly referenced.     
-Here's an overview of the most commonly applied types (pinted in **bold**)
+To describe specific composites ("mixes", e.g. *Complete Main*, *Music & Effects*, *Audio Description Mix* etc.), certain attributes are defined in ADM for <audioContent\> components. In the [*ADM4Legacy* (*Step 1*)](../tech/migration.md) use case, with a strict 1:1 relationship between <audioProgramme\> and <audioConten\>, these are directly referenced.     
+Here's an overview of the most commonly applied types (printed in **bold**)
 
 Reference: [ITU-R BS.2076-3](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2076-3-202502-I!!PDF-E.pdf) §5.7.3
 
@@ -27,8 +27,8 @@ Emergency (only)| `<dialogue dialogueContentKind="6“>1</dialogue>` |  Notfalla
 
 ## Content Kind & MCA Labels
 
-If applied in MXF OP1-A using [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/), additional singalling in MCA labels is recommended.    
-This table provides an overview how to describe composits ("mixes") with MCA properties (most common types in *bold*)
+If applied in MXF OP1-A using [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/), additional signalling in MCA labels is recommended.    
+This table provides an overview how to describe composites ("mixes") with MCA properties (most common types in *bold*)
 
 Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub/)    
 
@@ -70,7 +70,7 @@ The test vector 1.1.6 in the 1st ADM Plugfest (ADM-IG June 2026) was modelled si
     -Original Version (OV) 2.0
     -Complete Main (Sendeton) 5.1
 
-The mca-label.txt filecreated for the conversion/muxing of the BW64-ADM.wav in [BMX tool for MXF](https://github.com/ebu/bmx) contained
+The mca-label.txt file created for the conversion/muxing of the BW64-ADM.wav in [BMX tool for MXF](https://github.com/ebu/bmx) contained
 
 ```
 0

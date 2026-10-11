@@ -88,11 +88,11 @@ nav:
         - ADM related standards: 'documents/adm_standards.md'
         - EBU documents: 'documents/ebu_documents.md'
         - ADM related software: 'tech/adm_software.md'
-  - ADM Best Practices:    
+  - ADM Best Practices:
         - Overview: 'best_practices/overview.md'
-        - MXF & IMF Best Practice:
-        - ADM & S-ADM in MXF & IMF: 'best_practices/mxf_imf.md'
+        - MXF & IMF Best Practice: 'best_practices/mxf_imf.md'
         - ADM Profiles & Levels Labels: 'best_practices/adm_profiles_levels_table.html'
+        - ADM Content Kind Attributes and MCA Labels: 'best_practices/ADM-MCA-Labels.md'
   - ADM Migration Path:
         - Overview: 'tech/migration.md'
         - Step 1 - ADM4Legacy: 'tech/ADM4Legacy-OnDemand.md'
@@ -101,7 +101,7 @@ nav:
         - ADM Studio: 'tech/ADM_studio.md'
   - ADM Implementers Group:
         - About ADM-IG: 'admig/admig.md'
-        - Workplan:    
+        - Workplan:
             - Action Items: 'admig/action_items.md'
             - Future Work: 'admig/future_work.md'
         - ADM Plugfests:
