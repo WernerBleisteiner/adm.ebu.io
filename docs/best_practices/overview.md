@@ -14,4 +14,14 @@ See the subsections here to explore how to get the most out with ADM in these ty
 
 ## Descriptors for Content Kind and composites
 
-Typically
+Typically, audio composits or "mixes" are defined as a certain kind : 
+- Complete Main
+- Music & Effects
+- Audio Description 
+- etc.
+
+ADM, for the first time,  allows to assign and carry this information, storing it within the essence itself, the <axml\> chunk within the *BW64*.     
+MCA offers a similar technique within the header of a *MXF*.    
+
+The subsection explains and shows examples how to apply both.
+
