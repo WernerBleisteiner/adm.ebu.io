@@ -2,8 +2,8 @@
 
 ## Content Kind & ADM Attributes
 
-To describe specific composites ("mixes", e.g. *Complete Main*, *Music & Effects*, *Audio Description Mix* etc.), certain attributes are defined in ADM for <audioContent\> components. In the [*ADM4Legacy* (*Step 1*)](../tech/migration.md) use case, with a strict 1:1 relationship between <audioProgramme\> and <audioConten\>, these are directly referenced.     
-Here's an overview of the most commonly applied types (printed in **bold**)
+To describe specific composites ("mixes", e.g. *Complete Main*, *Music & Effects*, *Audio Description Mix* etc.), certain attributes are defined in ADM for <audioContent\> components. In the [*ADM4Legacy* (*Step 1*)](../tech/migration.md) use case, with a strict 1:1 relationship between <audioProgramme\> and <audioContent\>, these are directly referenced.     
+Here's an overview of the most commonly applied types (printed in **bold**) as defined in specifications like [EBU R123](https://tech.ebu.ch/docs/r/r123.pdf), [ITU-R BS.2102](https://www.itu.int/rec/R-REC-BS.2102/en) or [ARD-ZDF-ORF TPR 2025](https://www.ard.de/die-ard/b2b/tpr-2025-technische-produktionsrichtlinien-zur-herstellung-von-medienproduktionen-100.pdf)
 
 Reference: [ITU-R BS.2076-3](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2076-3-202502-I!!PDF-E.pdf) §5.7.3
 
