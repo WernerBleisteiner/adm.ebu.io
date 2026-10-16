@@ -11,10 +11,10 @@ Here some milestones of the developmemt
 
 - 2015: [ITU-R BS. 2076-0](https://www.itu.int/rec/R-REC-BS.2076-0-201506-S/en) was first published in 6 languages. This recommendation by the ITU Radiocommunications Assemby marks the birth of ADM in the public. It corresponds to [ITU-R BS.2015: Advanced sound system for programme production](https://www.itu.int/rec/R-REC-BS.2051-0-201402-S/en) that, for the first time, outlined the scope of future audio systems for digital broadcasting and digital cinema.
 
--  Dec 1 2015: [ORPHEUS](https://orpheus-audio.eu) kicks off. The EU-funded *HORIZON 2020* project assembles major audio reseach instituts and industry partners, with the aim to design and implement the first wnd-to-end object-based audio broadcast chain.   ADM is one of the core technologies included - and main parts can be developed in joint effort.
- 
-- 
-- 
-- 
-- 
--  Er](
+-  Dec 1 2015 - May 31 2018: [ORPHEUS](https://orpheus-audio.eu)      
+![](img/ORPHEUS-PROJECT.png)
+The EU-funded *HORIZON 2020* project assembles major audio research institutes and industry partners, with the aim to design and implement the first end-to-end object-based audio broadcast chain.   ADM is one of the core technologies included - and a main component for ADM, can be developed: [EAR - The EBU ADM Renderer](https://github.com/ebu/ebu_adm_renderer), which will become the reference implementation of [Audio Definition Model renderer for advanced sound systems ITU-R BS.2127](https://www.itu.int/rec/R-REC-BS.2127/en).    
+In 2018, *BBC R&D*, *IRT, *FTV* and *b><com* receive receives the [*EBU Technology & Innovation Award*](https://www.ebu.ch/news/2018/06/renderer-for-next-generation-audio-wins-2018-ebu-technology--innovation-award?_gl=1*1f7car6*_ga*OTcwNjM3MzM2LjE0NDY0NTcwMDI.*_ga_TVTB816MPW*czE3OTIxNDQyMjIkbzI4NiRnMCR0MTc5MjE0NDIyOCRqNTQkbDAkaDA.) for this joint effort.
+![](img/EBU-TI-Award-EAR.jpeg)    
+
+- ....
