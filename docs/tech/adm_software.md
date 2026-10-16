@@ -17,7 +17,7 @@
    → the reference implementation of [EBU TECH 3388 ADM Renderer](https://tech.ebu.ch/publications/tech3388)    
    → renders ADM to channel-based layouts defined in [ITU-R BS.2051](https://www.itu.int/rec/R-REC-BS.2051/en)         
    → contains also `ear-utils`, some simple Command Line tools to extract and manipulate ADM data from BWF
-
+   → [EAR Documentation](https://ear.readthedocs.io) provides in depth background    
 
 * [**BEAR - Binaural EBU ADM Renderer**](https://github.com/ebu/bear)    
    → an *EAR*-based binaural renderer for ADM as specified in [EBU TECH 3396](https://tech.ebu.ch/publications/tech3396)    
