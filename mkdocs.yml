@@ -14,6 +14,7 @@ extra:
       name: GitHub repository for website source
 extra_css:
   - 'css/fig_captions.css'
+  - 'css/extra.css'
 use_directory_urls: false
 # MathJax is loaded with a Subresource Integrity hash from custom_theme/main.html
 # instead of here, since mkdocs' extra_javascript option has no way to set
