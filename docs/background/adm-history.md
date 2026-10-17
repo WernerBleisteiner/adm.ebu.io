@@ -3,9 +3,9 @@
 
 ADM was conceptualised (around) 201x by developers at BBC R&D as it became clear that future audio will not just go beyond conventional 2.0 and 5.1 representations, but demands regarding speech intelligibility and accessibility will require more flexible and intelligent approaches from production to delivery.
 
-The idea was to address these challenges with an "object-based" approach, i.e. by accompagnying metadata that can control a renderer while offering the listeners interactivity for personalisation. This was one of the first visualistions to explain the difference
+The idea was to address these challenges with an "object-based" approach, i.e. by accompanying metadata that can control a renderer while offering the listeners interactivity for personalisation. This was one of the first visualistions of the concept
 
-![](img/OBA-IKEA.png)
+![](img/OBA-IKEA.gif)
 
 .....
 
@@ -15,19 +15,12 @@ Here some milestones of the developmemt
 
 -  Dec 1 2015 - May 31 2018: [ORPHEUS](https://orpheus-audio.eu)      
 ![](img/ORPHEUS-PROJECT.png)
-<<<<<<< adm-history
 The EU-funded *HORIZON 2020* project assembles major audio research institutes and industry partners, with the aim to design and implement the first end-to-end object-based audio broadcast chain.   ADM is one of the core technologies included - and a main component for ADM, can be developed: [EAR - The EBU ADM Renderer](https://github.com/ebu/ebu_adm_renderer), which will become the reference implementation of [Audio Definition Model renderer for advanced sound systems ITU-R BS.2127](https://www.itu.int/rec/R-REC-BS.2127/en).    
-In 2018, *BBC R&D*, *IRT*, *FTV* and *b>com* receive the [*EBU Technology & Innovation Award*](https://www.ebu.ch/news/2018/06/renderer-for-next-generation-audio-wins-2018-ebu-technology--innovation-award?_gl=1*1f7car6*_ga*OTcwNjM3MzM2LjE0NDY0NTcwMDI.*_ga_TVTB816MPW*czE3OTIxNDQyMjIkbzI4NiRnMCR0MTc5MjE0NDIyOCRqNTQkbDAkaDA.) for this joint effort. 
+In 2018, *BBC R&D*, *IRT*, *FTV* and *b>com* receive the [*EBU Technology & Innovation Award*](https://www.ebu.ch/news/2018/06/renderer-for-next-generation-audio-wins-2018-ebu-technology--innovation-award?_gl=1*1f7car6*_ga*OTcwNjM3MzM2LjE0NDY0NTcwMDI.*_ga_TVTB816MPW*czE3OTIxNDQyMjIkbzI4NiRnMCR0MTc5MjE0NDIyOCRqNTQkbDAkaDA.) for this joint effort.
 ![](img/EBU-TI-Award-EAR.jpeg)
-    
 
-- 2019: Dolby publishes the [Dolby Atmos Master ADMd Profile V1.0](https://developer.dolby.com/globalassets/documentation/technology/dolby_atmos_master_adm_profile_v1.0.pdf) - the first commercial implementation of ADM. Alongside, with Dolby Atmos authoring being implemented in major DAWs, ADM is introduced as alternative mastering format to Dolby's proprietary *DAMF*.  ADM will prevail.
-=======
-The EU-funded *HORIZON 2020* project assembles major audio research institutes and industry partners, with the aim to design and implement the first end-to-end object-based audio broadcast chain.   ADM is one of the core technologies included - and a main component for ADM, can be developed: [EAR - The EBU ADM Renderer](https://github.com/ebu/ebu_adm_renderer), the reference implementation of the [Audio Definition Model renderer for advanced sound systems ITU-R BS.2127](https://www.itu.int/rec/R-REC-BS.2127/en).    
-In 2018, *BBC R&D*, *IRT*, *FTV* and *b><com* receive the [*EBU Technology & Innovation Award*](https://www.ebu.ch/news/2018/06/renderer-for-next-generation-audio-wins-2018-ebu-technology--innovation-award?_gl=1*1f7car6*_ga*OTcwNjM3MzM2LjE0NDY0NTcwMDI.*_ga_TVTB816MPW*czE3OTIxNDQyMjIkbzI4NiRnMCR0MTc5MjE0NDIyOCRqNTQkbDAkaDA.) for this joint effort.    
-![](img/EBU-TI-Award-EAR.jpeg)    
 
 - 2019: Dolby publishes the [Dolby Atmos Master ADMd Profile V1.0](https://developer.dolby.com/globalassets/documentation/technology/dolby_atmos_master_adm_profile_v1.0.pdf) - the first commercial implementation of ADM. Alongside, with Dolby Atmos authoring being present in major DAWs, ADM is introduced as alternative mastering format to Dolby's proprietary *DAMF*.  ADM will prevail.
->>>>>>> origin/adm-history
+
 
 - ...
