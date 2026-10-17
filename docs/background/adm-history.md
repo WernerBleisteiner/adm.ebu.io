@@ -15,11 +15,19 @@ Here some milestones of the developmemt
 
 -  Dec 1 2015 - May 31 2018: [ORPHEUS](https://orpheus-audio.eu)      
 ![](img/ORPHEUS-PROJECT.png)
+<<<<<<< adm-history
 The EU-funded *HORIZON 2020* project assembles major audio research institutes and industry partners, with the aim to design and implement the first end-to-end object-based audio broadcast chain.   ADM is one of the core technologies included - and a main component for ADM, can be developed: [EAR - The EBU ADM Renderer](https://github.com/ebu/ebu_adm_renderer), which will become the reference implementation of [Audio Definition Model renderer for advanced sound systems ITU-R BS.2127](https://www.itu.int/rec/R-REC-BS.2127/en).    
 In 2018, *BBC R&D*, *IRT*, *FTV* and *b>com* receive the [*EBU Technology & Innovation Award*](https://www.ebu.ch/news/2018/06/renderer-for-next-generation-audio-wins-2018-ebu-technology--innovation-award?_gl=1*1f7car6*_ga*OTcwNjM3MzM2LjE0NDY0NTcwMDI.*_ga_TVTB816MPW*czE3OTIxNDQyMjIkbzI4NiRnMCR0MTc5MjE0NDIyOCRqNTQkbDAkaDA.) for this joint effort. 
 ![](img/EBU-TI-Award-EAR.jpeg)
     
 
 - 2019: Dolby publishes the [Dolby Atmos Master ADMd Profile V1.0](https://developer.dolby.com/globalassets/documentation/technology/dolby_atmos_master_adm_profile_v1.0.pdf) - the first commercial implementation of ADM. Alongside, with Dolby Atmos authoring being implemented in major DAWs, ADM is introduced as alternative mastering format to Dolby's proprietary *DAMF*.  ADM will prevail.
+=======
+The EU-funded *HORIZON 2020* project assembles major audio research institutes and industry partners, with the aim to design and implement the first end-to-end object-based audio broadcast chain.   ADM is one of the core technologies included - and a main component for ADM, can be developed: [EAR - The EBU ADM Renderer](https://github.com/ebu/ebu_adm_renderer), the reference implementation of the [Audio Definition Model renderer for advanced sound systems ITU-R BS.2127](https://www.itu.int/rec/R-REC-BS.2127/en).    
+In 2018, *BBC R&D*, *IRT*, *FTV* and *b><com* receive the [*EBU Technology & Innovation Award*](https://www.ebu.ch/news/2018/06/renderer-for-next-generation-audio-wins-2018-ebu-technology--innovation-award?_gl=1*1f7car6*_ga*OTcwNjM3MzM2LjE0NDY0NTcwMDI.*_ga_TVTB816MPW*czE3OTIxNDQyMjIkbzI4NiRnMCR0MTc5MjE0NDIyOCRqNTQkbDAkaDA.) for this joint effort.    
+![](img/EBU-TI-Award-EAR.jpeg)    
+
+- 2019: Dolby publishes the [Dolby Atmos Master ADMd Profile V1.0](https://developer.dolby.com/globalassets/documentation/technology/dolby_atmos_master_adm_profile_v1.0.pdf) - the first commercial implementation of ADM. Alongside, with Dolby Atmos authoring being present in major DAWs, ADM is introduced as alternative mastering format to Dolby's proprietary *DAMF*.  ADM will prevail.
+>>>>>>> origin/adm-history
 
 - ...
