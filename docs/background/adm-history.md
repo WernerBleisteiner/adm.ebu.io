@@ -1,9 +1,9 @@
-# A Short History of ADM
+# A Short History of **<span style='color: blue;'>ADM**
 
 
 ADM was conceptualised (around) 201x by developers at BBC R&D as it became clear that future audio will not just go beyond conventional 2.0 and 5.1 representations, but demands regarding speech intelligibility and accessibility will require more flexible and intelligent approaches from production to delivery.
 
-The idea was to address these challenges with an "object-based" approach, i.e. by accompanying metadata that can control a renderer while offering the listeners interactivity for personalisation. This was one of the first visualistions of the concept
+The idea was to address these challenges with an "object-based" approach, i.e. by accompanying metadata that can control a renderer while offering the listeners interactivity for personalisation. This was one of the first visualistions of the concept.
 
 ![](img/OBA-IKEA.gif)
 
