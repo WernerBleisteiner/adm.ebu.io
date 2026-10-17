@@ -1,4 +1,4 @@
-# A Short History of **<span style='color: blue;'>ADM**
+# A Short History of **<span style='color: blue;font-size:1.5em;'>ADM**
 
 
 ADM was conceptualised (around) 201x by developers at BBC R&D as it became clear that future audio will not just go beyond conventional 2.0 and 5.1 representations, but demands regarding speech intelligibility and accessibility will require more flexible and intelligent approaches from production to delivery.
