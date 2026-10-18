@@ -10,19 +10,19 @@ Reference: [ITU-R BS.2076-3](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-B
 |   **TYPE**  | **CODE** (within block `<audioContent>. . .</audioContent>`|**German Terms**|
 --------------|----------------------------------------------------|-----------------------|
 **COMPLETE MAIN (mixed)**|  `<dialogue mixedContentKind="1“>2</dialogue>`  |Sendeton/Standard  |        
-Undefined |`<dialogue nonDialogueContentKind="0">0</dialogue>`| Unbekannt|
-**Music & Effects** | `<dialogue nonDialogueContentKind="3“>0</dialogue>`  |IT/ME (Musik & Effekte) |
-Mixed "Bed" (unspec. *mixed*)  | `<dialogue mixedContentKind="2">2</dialogue>`| BED ( unspec.)   |       
+**Music & Effects** | `<dialogue nonDialogueContentKind="3“>0</dialogue>`  |IT/ME (Musik & Effekte) |      
 **AD/VI** (*mixed*)       | `<dialogue mixedContentKind="4“>2</dialogue>`  |Audiodeskription (mixed)|     
 **Clear Speech** (*mixed*)  | `<dialogue mixedContentKind="3“>2</dialogue>`  |Klare Sprache (mixed)|    
 Music (only)  | `<dialogue nonDialogueContentKind="1“>0</dialogue>` |Musik (allein)|    
 Effects (only)| `<dialogue nonDialogueContentKind="2“>0</dialogue>` |Effekte (allein)|    
+Mixed "Bed" (unspec. *mixed*)  | `<dialogue mixedContentKind="2">2</dialogue>`| BED ( unspec.)   | 
 Dialogue (only)|   `<dialogue dialogueContentKind="1“>1</dialogue>` |Sprache/Dialog (allein)|    
 Voice over (only)| `<dialogue dialogueContentKind="2“>1</dialogue>` |Übersetzung (allein)|    
 Spoken Subtitles (only)| `<dialogue dialogueContentKind="3“>1</dialogue>`|Gesprochene Untertitel (allein)|   
 AD (only)|         `<dialogue dialogueContentKind="4“>1</dialogue>` |Audiodeskription (allein)|    
 Commentary (only)| `<dialogue dialogueContentKind="5“>1</dialogue>` |Kommentar (allein)|    
 Emergency (only)| `<dialogue dialogueContentKind="6“>1</dialogue>` |  Notfallansage|
+Undefined |`<dialogue nonDialogueContentKind="0">0</dialogue>`| Unbekannt|
 
 
 ## Content Kind & MCA Labels
@@ -34,22 +34,22 @@ Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub
 
 |   **TYPE**  |**German Terms**|  MCA CONTENT | MCA SYMBOL| MCA USE CLASS|
 --------------|----------------|--------------|-----------|--------------|    
-**COMPLETE MAIN (mixed)**| Sendeton/Standard  | Primary| PRM |FCMP |     
-Undefined | Unbekannt| n/a | n/a | n/a |     
-**Music & Effects** |IT/ME (Musik & Effekte) | Music & Effects | ME | ICMP  |
-Mixed "Bed" (unspec. *mixed*)  |BED ( unspec.)   | n/a | n/a | ?? |      
+**COMPLETE MAIN (mixed)**| Sendeton/Standard  | Primary| PRM |FCMP |         
+**Music & Effects** |IT/ME (Musik & Effekte) | Music & Effects | ME | ICMP  |    
 **AD/VI** (*mixed*)       | Audiodeskription (mixed)| Descriptive Video | DV | FCMP |    
 **Clear Speech** (*mixed*)  | Klare Sprache (mixed)| Hearing Impaired | HI | ??   
 Music (only)  | Musik (allein)| Music | MX | ICMP |   
 Effects (only)| Effekte (allein)| Effects/Foley | FX/FOL | ICMP |
+Mixed "Bed" (unspec. *mixed*)  |BED ( unspec.)   | n/a | n/a | ?? |  
 Dialogue (only)|  Sprache/Dialog (allein)| Dialogue | DX | ICMP |    
 Voice over (only)| Übersetzung (allein)| Voice-Over | VO | SING |   
 Spoken Subtitles (only)| Gesprochene Untertitel (allein)|  n/a | n/a | n/a |
 AD (only)|Audiodeskription (allein)| Visually Impaired | VI | SING |   
 Commentary (only)|Kommentar (allein)| Recorded Commentary | CM | SING |    
 Emergency |  Notfallansage| n/a | n/a | n/a |
+Undefined | Unbekannt| n/a | n/a | n/a | 
  (Silence) |  (Stille) | Silence | MOS | FCMP/SMPL |
-
+ 
 Note: MCA Content Labels do not consider "objects"-only composites and elements.
 To distinguish these it defines Use Classes    
 
