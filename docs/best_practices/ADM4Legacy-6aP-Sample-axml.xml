@@ -1,0 +1,180 @@
+<audioFormatExtended xmlns="urn:ebu:metadata-schema:ebuCore_2015" version="ITU-R_BS.2076-3">
+        <profileList>
+          <profile profileLevel="1" profileName="EBU Production Profile" profileVersion="1">EBU TECH 3393</profile>
+        </profileList>
+        <audioProgramme audioProgrammeID="APR_1001" audioProgrammeLanguage="eng" audioProgrammeName="Complete Main">
+          <audioContentIDRef>ACO_1001</audioContentIDRef>
+          <loudnessMetadata loudnessMethod="ITU-R BS.1770">
+            <integratedLoudness>-30.0</integratedLoudness>
+            <loudnessRange>20.0</loudnessRange>
+            <maxTruePeak>-14.1</maxTruePeak>
+          </loudnessMetadata>
+        </audioProgramme>
+        <audioProgramme audioProgrammeID="APR_1002" audioProgrammeLanguage="zxx" audioProgrammeName="Music&Effects">
+          <audioContentIDRef>ACO_1002</audioContentIDRef>
+          <loudnessMetadata loudnessMethod="ITU-R BS.1770">
+            <integratedLoudness>-29.4</integratedLoudness>
+            <loudnessRange>20.0</loudnessRange>
+            <maxTruePeak>-13.2</maxTruePeak>
+          </loudnessMetadata>
+        </audioProgramme>
+        <audioProgramme audioProgrammeID="APR_1003" audioProgrammeLanguage="eng" audioProgrammeName="Audio Description Mix">
+          <audioContentIDRef>ACO_1003</audioContentIDRef>
+          <loudnessMetadata loudnessMethod="ITU-R BS.1770">
+            <integratedLoudness>-29.8</integratedLoudness>
+            <loudnessRange>20.0</loudnessRange>
+            <maxTruePeak>-11.2</maxTruePeak>
+          </loudnessMetadata>
+        </audioProgramme>
+        <audioProgramme audioProgrammeID="APR_1004" audioProgrammeLanguage="eng" audioProgrammeName="Complete Main 5.1">
+          <audioContentIDRef>ACO_1004</audioContentIDRef>
+          <loudnessMetadata loudnessMethod="ITU-R BS.1770">
+            <integratedLoudness>-15.0</integratedLoudness>
+            <loudnessRange>20.0</loudnessRange>
+            <maxTruePeak>-7.5</maxTruePeak>
+          </loudnessMetadata>
+        </audioProgramme>
+        <audioProgramme audioProgrammeID="APR_1005" audioProgrammeLanguage="fra" audioProgrammeName="Original Version">
+          <audioContentIDRef>ACO_1005</audioContentIDRef>
+          <loudnessMetadata loudnessMethod="ITU-R BS.1770">
+            <integratedLoudness>-29.7</integratedLoudness>
+            <loudnessRange>20.0</loudnessRange>
+            <maxTruePeak>-14.2</maxTruePeak>
+          </loudnessMetadata>
+        </audioProgramme>
+       
+        <audioContent audioContentID="ACO_1001" audioContentLanguage="eng" audioContentName="Complete Main">
+          <audioObjectIDRef>AO_1001</audioObjectIDRef>
+          <dialogue mixedContentKind="1">2</dialogue>
+          <loudnessMetadata loudnessMethod="ITU-R BS.1770">
+            <integratedLoudness>-30.0</integratedLoudness>
+            <loudnessRange>20.0</loudnessRange>
+            <maxTruePeak>-14.1</maxTruePeak>
+          </loudnessMetadata>
+        </audioContent>
+        <audioContent audioContentID="ACO_1002" audioContentLanguage="eng" audioContentName="Music&Effects">
+          <audioObjectIDRef>AO_1002</audioObjectIDRef>
+          <dialogue nonDialogueContentKind="3">0</dialogue> 
+          <loudnessMetadata loudnessMethod="ITU-R BS.1770">
+            <integratedLoudness>-29.4</integratedLoudness>
+            <loudnessRange>20.0</loudnessRange>
+            <maxTruePeak>-13.2</maxTruePeak>
+          </loudnessMetadata>
+        </audioContent>
+        <audioContent audioContentID="ACO_1003" audioContentLanguage="eng" audioContentName="Audio Description Mix">
+          <audioObjectIDRef>AO_1003</audioObjectIDRef>
+          <dialogue dialogueContentKind="4">1</dialogue>
+          <loudnessMetadata loudnessMethod="ITU-R BS.1770">
+            <integratedLoudness>-29.8</integratedLoudness>
+            <loudnessRange>20.0</loudnessRange>
+            <maxTruePeak>-11.2</maxTruePeak>
+          </loudnessMetadata>
+        </audioContent>
+        <audioContent audioContentID="ACO_1004" audioContentLanguage="eng" audioContentName="Complete Main 5.1">
+          <audioObjectIDRef>AO_1004</audioObjectIDRef>
+          <dialogue mixedContentKind="1">2</dialogue>
+          <loudnessMetadata loudnessMethod="ITU-R BS.1770">
+            <integratedLoudness>-15.0</integratedLoudness>
+            <loudnessRange>20.0</loudnessRange>
+            <maxTruePeak>-7.5</maxTruePeak>
+          </loudnessMetadata>
+        </audioContent>
+        <audioContent audioContentID="ACO_1005" audioContentLanguage="fra" audioContentName="Original Version">
+          <audioObjectIDRef>AO_1005</audioObjectIDRef>
+          <dialogue mixedContentKind="1">2</dialogue>
+          <loudnessMetadata loudnessMethod="ITU-R BS.1770">
+            <integratedLoudness>-29.7</integratedLoudness>
+            <loudnessRange>20.0</loudnessRange>
+            <maxTruePeak>-14.2</maxTruePeak>
+          </loudnessMetadata>
+        </audioContent>
+      
+        <audioObject audioObjectID="AO_1001" audioObjectName="Complete Main">
+          <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
+          <audioTrackUIDRef>ATU_00000001</audioTrackUIDRef>
+          <audioTrackUIDRef>ATU_00000002</audioTrackUIDRef>
+        </audioObject>
+        <audioObject audioObjectID="AO_1002" audioObjectName="Music&Effects">
+          <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
+          <audioTrackUIDRef>ATU_00000003</audioTrackUIDRef>
+          <audioTrackUIDRef>ATU_00000004</audioTrackUIDRef>
+        </audioObject>
+        <audioObject audioObjectID="AO_1003" audioObjectName="Audio Description Mix">
+          <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
+          <audioTrackUIDRef>ATU_00000005</audioTrackUIDRef>
+          <audioTrackUIDRef>ATU_00000006</audioTrackUIDRef>
+        </audioObject>
+        <audioObject audioObjectID="AO_1004" audioObjectName="Complete Main 5.1">
+          <audioPackFormatIDRef>AP_00010003</audioPackFormatIDRef>
+          <audioTrackUIDRef>ATU_00000009</audioTrackUIDRef>
+          <audioTrackUIDRef>ATU_0000000a</audioTrackUIDRef>
+          <audioTrackUIDRef>ATU_0000000b</audioTrackUIDRef>
+          <audioTrackUIDRef>ATU_0000000c</audioTrackUIDRef>
+          <audioTrackUIDRef>ATU_0000000d</audioTrackUIDRef>
+          <audioTrackUIDRef>ATU_0000000e</audioTrackUIDRef>
+        </audioObject>
+        <audioObject audioObjectID="AO_1005" audioObjectName="Original Version">
+          <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
+          <audioTrackUIDRef>ATU_00000007</audioTrackUIDRef>
+          <audioTrackUIDRef>ATU_00000008</audioTrackUIDRef>
+        </audioObject>
+     
+        <audioTrackUID UID="ATU_00000001">
+          <audioChannelFormatIDRef>AC_00010001</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_00000002">
+          <audioChannelFormatIDRef>AC_00010002</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_00000003">
+          <audioChannelFormatIDRef>AC_00010001</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_00000004">
+          <audioChannelFormatIDRef>AC_00010002</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_00000005">
+          <audioChannelFormatIDRef>AC_00010001</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_00000006">
+          <audioChannelFormatIDRef>AC_00010002</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_00000007">
+          <audioChannelFormatIDRef>AC_00010001</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_00000008">
+          <audioChannelFormatIDRef>AC_00010002</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_00000009">
+          <audioChannelFormatIDRef>AC_00010001</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010003</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_0000000a">
+          <audioChannelFormatIDRef>AC_00010002</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010003</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_0000000b">
+          <audioChannelFormatIDRef>AC_00010003</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010003</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_0000000c">
+          <audioChannelFormatIDRef>AC_00010004</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010003</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_0000000d">
+          <audioChannelFormatIDRef>AC_00010005</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010003</audioPackFormatIDRef>
+        </audioTrackUID>
+        <audioTrackUID UID="ATU_0000000e">
+          <audioChannelFormatIDRef>AC_00010006</audioChannelFormatIDRef>
+          <audioPackFormatIDRef>AP_00010003</audioPackFormatIDRef>
+        </audioTrackUID>
+       
+      </audioFormatExtended>
+   
