@@ -24,6 +24,22 @@ AD (only)|         `<dialogue dialogueContentKind="4“>1</dialogue>` |Audiodesk
 Commentary (only)| `<dialogue dialogueContentKind="5“>1</dialogue>` |Kommentar (allein)|    
 Emergency (only)| `<dialogue dialogueContentKind="6“>1</dialogue>` |  Notfallansage|
 
+### Set languages
+
+Languages for `<audioProgrammeLanguage>` and `<audioContentLanguage>` shall be set according to [ISO 639-2](https://www.iso.org/iso-639-language-code) 
+with 3 characters only.    
+Here some examples:
+
+|  Language | ISO 639-2 Code |
+|-----------|----------------|
+| ENGLISH | eng |
+| FRENCH  | fra/fre|
+| GERMAN  | deu |
+| ITALIAN | ita |
+
+\>\>Note that *Music&Effects/International Sound* shall be set as *non-linguistic content*: 'zxx'
+
+
 
 ## Content Kind & MCA Labels
 
