@@ -39,7 +39,7 @@ Here some examples:
 
 \>\>Note that *Music&Effects/International Sound* shall be set as *non-linguistic content*: 'zxx'
 
-
+[This sample](ADM4Legacy-6aP-Sample-axml.md) contains all of the above mentioned features describing typical *ADM4Lagecy* configuration as defined in as [EBU R123](https://tech.ebu.ch/publications/r123) or [ITU-R BS.2102](https://www.itu.int/rec/R-REC-BS.2102/en) 
 
 ## Content Kind & MCA Labels
 
