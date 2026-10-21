@@ -49,6 +49,7 @@ However, the ADM vocabulary (so far) does not offer an immediate code for distin
 Therefore it is recommended to signal an original language version by naming them in `<audioProgramme`and `<audioContent>`
 as well as in `<audioProgrammeLabel>` (incl. different terms assigned via tags options).
 
+### Sample <axml\>
 
 \>\>[This sample](ADM4Legacy-5aP-Sample-axml.md) contains all of the above mentioned features describing a typical *ADM4Lagecy* configuration as defined in [EBU R123](https://tech.ebu.ch/publications/r123) or [ITU-R BS.2102](https://www.itu.int/rec/R-REC-BS.2102/en)
 
@@ -101,7 +102,7 @@ MCA offers a simple way to distinguish between "original" and "dubbed" language:
 
 
 
-### EXAMPLE
+### Sample MCA
 The test vector 1.1.6 in the 1st ADM Plugfest (ADM-IG June 2026) was modelled similar to a typical "ADM4Legacy" use case containing different channel-based mixes:
     -Complete Main (Sendeton) 2.0
     -Music & Effects (IT(ME) 2.0
