@@ -26,8 +26,7 @@ Undefined |`<dialogue nonDialogueContentKind="0">0</dialogue>`| Unbekannt|
 
 ### Set languages
 
-Languages for `<audioProgrammeLanguage>` and `<audioContentLanguage>` shall be set according to [ISO 639-2](https://www.iso.org/iso-639-language-code)
-with 3 characters only.    
+Languages for `<audioProgrammeLanguage>` and `<audioContentLanguage>` shall be set according to [ISO 639-2](https://www.iso.org/iso-639-language-code) with 3 characters.    
 Here some examples:
 
 |  Language | ISO 639-2 Code |
@@ -45,8 +44,8 @@ Here some examples:
 
 Usually, versions dubbed in the local language are prioritised in delivery and set as default `<audioProgramme>`.
 More and more, "Original Versions" are being offered as alternative.
-However, the ADM vocabulary (so far) does not offer an immediate code for distinction between "original" and "dubbed".
-Therefore it is recommended to signal an original language version by naming them in `<audioProgramme`and `<audioContent>`
+However, the ADM vocabulary (so far) does not offer an immediate code for distinction between "original" and "dubbed".    
+Therefore it is recommended to signal original language versions by naming them in `<audioProgramme`and `<audioContent>`
 as well as in `<audioProgrammeLabel>` (incl. different terms assigned via tags options).
 
 ### Sample <axml\>
@@ -55,39 +54,39 @@ as well as in `<audioProgrammeLabel>` (incl. different terms assigned via tags o
 
 ## Content Kind & MCA Labels
 
-If applied in MXF OP1-A using [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/), additional signalling in MCA labels is recommended.    
-This table provides an overview how to describe composites ("mixes") with MCA properties (most common types in *bold*)
+If applied in MXF OP1-A using [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/), additional signalling in *MCA Labels* is recommended.    
+This table provides an overview how to describe composites ("mixes") with MCA properties (most common types in **bold**)
 
 Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub/)    
 
 |   **TYPE**  |  MCA CONTENT | MCA SYMBOL| MCA USE CLASS|**German Term**|
 --------------|----------------|--------------|-----------|--------------|    
-**COMPLETE MAIN (mixed)**| Primary| PRM |FCMP | **Sendeton** (Standard) |         
-**Music & Effects** | Music & Effects | ME | ICMP  | **IT/ME** (Musik & Effekte) |    
-**AD/VI** (*mixed*)       | Descriptive Video | DV | FCMP | **Audiodeskription** (gemischt)|    
-**Clear Speech** (*mixed*)  | Hearing Impaired | HI | ?? | **Klare Sprache** (gemischt)|  
-Music (only)  |  Music | MX | ICMP |Musik (solo)|   
-Effects (only)|  Effects/Foley | FX/FOL | ICMP |Effekte (solo)|
-Mixed "Bed" (unspec. *mixed*)  | n/a | n/a | ?? |BED ( unspec.)   |  
-Dialogue (only)|  Dialogue | DX | ICMP | Sprache/Dialog (solo)|    
-Voice over (only)|  Voice-Over | VO | SING |Übersetzung (solo)|   
-Spoken Subtitles (only)|  n/a | n/a | n/a | Gesprochene Untertitel (solo)|
-AD (only)| Visually Impaired | VI | SING |Audiodeskription (solo)|   
-Commentary (only)| Recorded Commentary | CM | SING |Kommentar (solo)|    
-Emergency |  n/a | n/a | n/a | Notfallansage|   
-Undefined |  n/a | n/a | n/a |Unbekannt|    
- (Silence) | Silence | MOS | FCMP/SMPL | (Stille) |    
+|**COMPLETE MAIN (mixed)**| Primary| PRM |FCMP | **Sendeton** (Standard) |         
+|**Music & Effects** | Music & Effects | ME | ICMP  | **IT/ME** (Musik & Effekte) |    
+|**AD/VI** (*mixed*)       | Descriptive Video | DV | FCMP | **Audiodeskription** (gemischt)|    
+|**Clear Speech** (*mixed*)  | Hearing Impaired | HI | ?? | **Klare Sprache** (gemischt)|  
+|Music (only)  |  Music | MX | ICMP |Musik (solo)|   
+|Effects (only)|  Effects/Foley | FX/FOL | ICMP |Effekte (solo)|
+|Mixed "Bed" (unspec. *mixed*)  | n/a | n/a | ?? |BED ( unspec.)   |  
+|Dialogue (only)|  Dialogue | DX | ICMP | Sprache/Dialog (solo)|    
+|Voice over (only)|  Voice-Over | VO | SING |Übersetzung (solo)|   
+|Spoken Subtitles (only)|  n/a | n/a | n/a | Gesprochene Untertitel (solo)|
+|AD (only)| Visually Impaired | VI | SING |Audiodeskription (solo)|   
+|Commentary (only)| Recorded Commentary | CM | SING |Kommentar (solo)|    
+|Emergency |  n/a | n/a | n/a | Notfallansage|   
+|Undefined |  n/a | n/a | n/a |Unbekannt|    
+|(Silence) | Silence | MOS | FCMP/SMPL | (Stille) |    
 
 
-Note: MCA Content Labels do not consider "objects"-only composites and elements.
-To distinguish these it defines Use Classes    
+Note: *MCA Content Labels* do not consider "objects"-only composites and elements.
+To distinguish these it defines *Use Classes*    
 
 |     MCA use Class  | Symbol | Definition |
 ---------------------|--------|------------|
-Finished Composite   | FCMP   |The associated MCA Content is a composite, complete work and need not be mixed prior to presentation. It can be mixed with other Soundfield Groups to create other particular desired content per the allowed combinations in Table 4.|
-Intermediary Composite| ICMP  |The associated MCA Content is a composite but requires mixing with other elements prior to presentation. It can be mixed with other Soundfield Groups to create desired FCMP content per the allowed combinations in Table 4.|
-Simplified           | SMPL  | The associated MCA Content contains a simplified mix, typically mono, stereo or Lt-Rt, intended for special uses. It can be mixed with other SMPL Soundfield Groups to create desired SMPL content per the allowed combinations in Table 4.|
-Singular             | SING  | Element contains a single content (such as narration voice) that can be output on its own or be mixed with other Soundfield Groups.|
+|Finished Composite   | FCMP   |The associated MCA Content is a composite, complete work and need not be mixed prior to presentation. It can be mixed with other Soundfield Groups to create other particular desired content per the allowed combinations in Table 4.|
+|Intermediary Composite| ICMP  |The associated MCA Content is a composite but requires mixing with other elements prior to presentation. It can be mixed with other Soundfield Groups to create desired FCMP content per the allowed combinations in Table 4.|
+|Simplified           | SMPL  | The associated MCA Content contains a simplified mix, typically mono, stereo or Lt-Rt, intended for special uses. It can be mixed with other SMPL Soundfield Groups to create desired SMPL content per the allowed combinations in Table 4.|
+|Singular             | SING  | Element contains a single content (such as narration voice) that can be output on its own or be mixed with other Soundfield Groups.|
 
 Therefore, the MCA Content label descriptors have limited correspondences with the object-based concept of ADM.
 
