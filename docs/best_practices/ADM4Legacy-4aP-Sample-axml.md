@@ -1,4 +1,4 @@
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ebuCoreMain xmlns="urn:ebu:metadata-schema:ebuCore_2014" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schema="EBU_CORE_20140201.xsd" xml:lang="en">
   <coreMetadata>
@@ -138,5 +138,4 @@
       </audioFormatExtended>
     </format>
   </coreMetadata>
-</ebuCoreMain><!--created with ADM4Legacy Tool v1.2.1-->
 ```
