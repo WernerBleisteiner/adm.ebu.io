@@ -20,7 +20,7 @@ For existing conventional channel-based production and distribution workflows
      -> enabling track-routing and automation in workflows    
      -> driving on-air and on-demand *MULTI-AUDIO* delivery    
 
-->[ADM2Legacy](ADM4Legacy-OnDemand.md) provides more details of this stage.
+->[ADM4Legacy On Demand](ADM4Legacy-OnDemand.md) provides more details of this stage.
 
 ## STEP 2. ADM*2*Legacy
 
@@ -35,7 +35,7 @@ First migration step to benefit from efficient object-based ADM production techn
      -> scalable, multiple rendering format as required (2.0, 5.1. 5.1.4, binaural)    
      -> driving on-air and on-demand *MULTI-AUDIO* delivery    
 
-->[ADM2NGA](ADM2Legacy.md) provides more details of this stage.
+->[ADM2Legacy](ADM2Legacy.md) provides more details of this stage.
 
 ## STEP 3. ADM*2*NGA
 
@@ -53,5 +53,7 @@ Ultimate move to end-to-end ADM-NGA production and delivery chain.
      -> Multi-Language/Audio Description    
      -> Immersive Reproduction
      -> Loudness Adaptability et. al.    
+
+->[ADM2NGA](ADM2NGA.md) provides more details of this stage.
 
 ->The [ADM Studio](ADM_studio.md) is a paradigmatic implementation of this stage.
