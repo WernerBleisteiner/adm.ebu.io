@@ -138,12 +138,12 @@ Some examples
 
 
 
-The final CL was
+The final CL was according to this pattern
 
 ```
-raw2bmx -t op1a -o hessischer_rundfunk_1_2_6__test_i4b_adm_A.mxf --audio-layout adm --track-mca-labels x mca-ADM-label-PF26-TV_1_1_6.txt --adm-wave-chunk axml,urn:smpte:ul:060e2b34.0401010d.04020211.02020000 --wave hessischer_rundfunk_1_1_6_test_i4a_adm_A.wav
+raw2bmx -t op1a -o OUTPUT-ADM.mxf --audio-layout adm --track-mca-labels x mca-ADM-label-PF26-TV_1_1_6.txt --adm-wave-chunk axml,urn:smpte:ul:060e2b34.0401010d.04020211.02020000 --wave INPUT-ADM.wav
 ```
 
 
-\>\>Note: The `urn:smpte:ul:060e2b34.0401010d.04020211.02020000` refers to the SMPTE Registry.     
-    See [this table of Labels](./adm_profiles_levels_table.html) for details.    
+\>\>Note: The `urn:smpte:ul:060e2b34.0401010d.04020211.02020000` refers to the SMPTE Registry signalling the *ADM_ITU2168_Emission_V1_L1* as defined in [ITU-R BS.2168-0](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2168-0-202502-I!!PDF-E.pdf)    
+    See [this table of Labels](./adm_profiles_levels_table.html) for reference on the defined ADM Profiles and Levels.    
