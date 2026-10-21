@@ -50,7 +50,7 @@ as well as in `<audioProgrammeLabel>` (incl. different terms assigned via tags o
 
 ### Sample <axml\>
 
-\>\>[This sample](ADM4Legacy-5aP-Sample-axml.md) contains all of the above mentioned features describing a typical *ADM4Lagecy* configuration as defined in [EBU R123](https://tech.ebu.ch/publications/r123) or [ITU-R BS.2102](https://www.itu.int/rec/R-REC-BS.2102/en)
+\>\>[This sample](ADM4Legacy-4aP-Sample-axml.md) contains all of the above mentioned features describing a typical *ADM4Lagecy* configuration as defined in [EBU R123](https://tech.ebu.ch/publications/r123) or [ITU-R BS.2102](https://www.itu.int/rec/R-REC-BS.2102/en)
 
 ## Content Kind & MCA Labels
 
