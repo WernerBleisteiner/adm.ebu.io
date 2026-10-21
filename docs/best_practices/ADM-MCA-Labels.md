@@ -90,7 +90,7 @@ To distinguish these it defines *Use Classes*
 
 Therefore, the MCA Content label descriptors have limited correspondences with the object-based concept of ADM.
 
-## How to signal "Original Language Version" in MCA
+### How to signal "Original Language Version" in MCA
 
 MCA offers a simple way to distinguish between "original" and "dubbed" language: *MCA Spoken Language Attribute*
 
