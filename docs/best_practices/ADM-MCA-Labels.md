@@ -24,7 +24,7 @@ Commentary (only)| `<dialogue dialogueContentKind="5“>1</dialogue>` |Kommentar
 Emergency (only)| `<dialogue dialogueContentKind="6“>1</dialogue>` |  Notfallansage|
 Undefined |`<dialogue nonDialogueContentKind="0">0</dialogue>`| Unbekannt|
 
-### Set languages
+### Set languages in ADM
 
 Languages for `<audioProgrammeLanguage>` and `<audioContentLanguage>` shall be set according to [ISO 639-2](https://www.iso.org/iso-639-language-code) with 3 characters.    
 Here some examples:
@@ -90,6 +90,20 @@ To distinguish these it defines *Use Classes*
 
 Therefore, the MCA Content label descriptors have limited correspondences with the object-based concept of ADM.
 
+### Set languages in MCA
+
+Note: MCA labels require RFC5646 [IETF language tags](https://datatracker.ietf.org/doc/html/rfc5646)
+Some examples
+
+|  Language | RFC5646 Code |
+|-----------|----------------|
+| ENGLISH GB | en-GB |
+| ENGLISH US | en-US |
+| FRENCH  | fr-FR|
+| GERMAN  | de-DE |
+| ITALIAN | it-IT |
+
+
 ### How to signal "Original Language Version" in MCA
 
 MCA offers a simple way to distinguish between "original" and "dubbed" language: *MCA Spoken Language Attribute*
@@ -102,7 +116,7 @@ MCA offers a simple way to distinguish between "original" and "dubbed" language:
 
 
 ### Sample MCA
-The test vector 1.1.6 in the 1st ADM Plugfest (ADM-IG June 2026) was modelled similar to a typical "ADM4Legacy" use case containing different channel-based mixes:
+The test vector 1.1.6 in the [1st ADM Plugfest](../admig/plugfest1.md) (June 2026) was modelled similar to a typical "ADM4Legacy" use case containing different channel-based mixes:
     -Complete Main (Sendeton) 2.0
     -Music & Effects (IT(ME) 2.0
     -Audio Description Mix (AD) 2.0
@@ -125,20 +139,9 @@ ADM, chunk_id=axml, RFC5646SpokenLanguage="en-GB", MCATitle="n/a", MCATitleVersi
 ADM, chunk_id=axml, RFC5646SpokenLanguage="de-DE", MCATitle="MAIN_MIX_5.1-SENDETON_GER", MCATitleVersion="n/a", MCAContent="PRM", MCAUseClass="FCMP", ADMAudioProgrammeID="APR_1005"
 ```
 
-Note: MCA labels require RFC5646 [IETF language tags](https://datatracker.ietf.org/doc/html/rfc5646)
-Some examples
-
-|  Language | RFC5646 Code |
-|-----------|----------------|
-| ENGLISH GB | en-GB |
-| ENGLISH US | en-US |
-| FRENCH  | fr-FR|
-| GERMAN  | de-DE |
-| ITALIAN | it-IT |
 
 
-
-The final CL was according to this pattern
+The final command line to mux the ADM.wav into a *MXF ST2131* with *bmx* followed this pattern:
 
 ```
 raw2bmx -t op1a -o OUTPUT-ADM.mxf --audio-layout adm --track-mca-labels x mca-ADM-label-PF26-TV_1_1_6.txt --adm-wave-chunk axml,urn:smpte:ul:060e2b34.0401010d.04020211.02020000 --wave INPUT-ADM.wav
