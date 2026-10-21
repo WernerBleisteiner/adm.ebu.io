@@ -7,26 +7,26 @@ Here's an overview of the most commonly applied types (printed in **bold**) as d
 
 Reference: [ITU-R BS.2076-3](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2076-3-202502-I!!PDF-E.pdf) §5.7.3
 
-|   **TYPE**  | **CODE** (within block `<audioContent>. . .</audioContent>`|**German Terms**|
+|   **TYPE**  | **CODE** (within block `<audioContent>. . .</audioContent>`|**German Term**|
 --------------|----------------------------------------------------|-----------------------|
-**COMPLETE MAIN (mixed)**|  `<dialogue mixedContentKind="1“>2</dialogue>`  |Sendeton/Standard  |        
-**Music & Effects** | `<dialogue nonDialogueContentKind="3“>0</dialogue>`  |IT/ME (Musik & Effekte) |      
-**AD/VI** (*mixed*)       | `<dialogue mixedContentKind="4“>2</dialogue>`  |Audiodeskription (mixed)|     
-**Clear Speech** (*mixed*)  | `<dialogue mixedContentKind="3“>2</dialogue>`  |Klare Sprache (mixed)|    
-Music (only)  | `<dialogue nonDialogueContentKind="1“>0</dialogue>` |Musik (allein)|    
-Effects (only)| `<dialogue nonDialogueContentKind="2“>0</dialogue>` |Effekte (allein)|    
-Mixed "Bed" (unspec. *mixed*)  | `<dialogue mixedContentKind="2">2</dialogue>`| BED ( unspec.)   | 
-Dialogue (only)|   `<dialogue dialogueContentKind="1“>1</dialogue>` |Sprache/Dialog (allein)|    
-Voice over (only)| `<dialogue dialogueContentKind="2“>1</dialogue>` |Übersetzung (allein)|    
-Spoken Subtitles (only)| `<dialogue dialogueContentKind="3“>1</dialogue>`|Gesprochene Untertitel (allein)|   
-AD (only)|         `<dialogue dialogueContentKind="4“>1</dialogue>` |Audiodeskription (allein)|    
-Commentary (only)| `<dialogue dialogueContentKind="5“>1</dialogue>` |Kommentar (allein)|    
+**COMPLETE MAIN (mixed)**|  `<dialogue mixedContentKind="1“>2</dialogue>`  | **Sendeton** (Standard)|        
+**Music & Effects** | `<dialogue nonDialogueContentKind="3“>0</dialogue>`  | **IT/ME** (Musik & Effekte)|      
+**AD/VI** (*mixed*)       | `<dialogue mixedContentKind="4“>2</dialogue>`  | **Audiodeskription** (gemischt)|     
+**Clear Speech** (*mixed*)  | `<dialogue mixedContentKind="3“>2</dialogue>`  | **Klare Sprache** (gemischt)|    
+Music (only)  | `<dialogue nonDialogueContentKind="1“>0</dialogue>` |Musik (solo)|    
+Effects (only)| `<dialogue nonDialogueContentKind="2“>0</dialogue>` |Effekte (solo)|    
+Mixed "Bed" (unspec. *mixed*)  | `<dialogue mixedContentKind="2">2</dialogue>`| BED ( unspec.)   |
+Dialogue (only)|   `<dialogue dialogueContentKind="1“>1</dialogue>` |Sprache/Dialog (solo)|    
+Voice over (only)| `<dialogue dialogueContentKind="2“>1</dialogue>` |Übersetzung (solo)|    
+Spoken Subtitles (only)| `<dialogue dialogueContentKind="3“>1</dialogue>`|Gesprochene Untertitel (solo)|   
+AD (only)|         `<dialogue dialogueContentKind="4“>1</dialogue>` |Audiodeskription (solo)|    
+Commentary (only)| `<dialogue dialogueContentKind="5“>1</dialogue>` |Kommentar (solo)|    
 Emergency (only)| `<dialogue dialogueContentKind="6“>1</dialogue>` |  Notfallansage|
 Undefined |`<dialogue nonDialogueContentKind="0">0</dialogue>`| Unbekannt|
 
 ### Set languages
 
-Languages for `<audioProgrammeLanguage>` and `<audioContentLanguage>` shall be set according to [ISO 639-2](https://www.iso.org/iso-639-language-code) 
+Languages for `<audioProgrammeLanguage>` and `<audioContentLanguage>` shall be set according to [ISO 639-2](https://www.iso.org/iso-639-language-code)
 with 3 characters only.    
 Here some examples:
 
@@ -36,10 +36,21 @@ Here some examples:
 | FRENCH  | fra/fre|
 | GERMAN  | deu |
 | ITALIAN | ita |
+|(Music & Effects)| zxx|
 
 \>\>Note that *Music&Effects/International Sound* shall be set as *non-linguistic content*: 'zxx'
 
-\>\>[This sample](ADM4Legacy-5aP-Sample-axml.md) contains all of the above mentioned features describing a typical *ADM4Lagecy* configuration as defined in [EBU R123](https://tech.ebu.ch/publications/r123) or [ITU-R BS.2102](https://www.itu.int/rec/R-REC-BS.2102/en) 
+
+### How to signal "Original Language Version" in ADM
+
+Usually, versions dubbed in the local language are prioritised in delivery and set as default `<audioProgramme>`.
+More and more, "Original Versions" are being offered as alternative.
+However, the ADM vocabulary (so far) does not offer an immediate code for distinction between "original" and "dubbed".
+Therefore it is recommended to signal an original language version by naming them in `<audioProgramme`and `<audioContent>`
+as well as in `<audioProgrammeLabel>` (incl. different terms assigned via tags options).
+
+
+\>\>[This sample](ADM4Legacy-5aP-Sample-axml.md) contains all of the above mentioned features describing a typical *ADM4Lagecy* configuration as defined in [EBU R123](https://tech.ebu.ch/publications/r123) or [ITU-R BS.2102](https://www.itu.int/rec/R-REC-BS.2102/en)
 
 ## Content Kind & MCA Labels
 
@@ -48,24 +59,25 @@ This table provides an overview how to describe composites ("mixes") with MCA pr
 
 Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub/)    
 
-|   **TYPE**  |**German Terms**|  MCA CONTENT | MCA SYMBOL| MCA USE CLASS|
+|   **TYPE**  |  MCA CONTENT | MCA SYMBOL| MCA USE CLASS|**German Term**|
 --------------|----------------|--------------|-----------|--------------|    
-**COMPLETE MAIN (mixed)**| Sendeton/Standard  | Primary| PRM |FCMP |         
-**Music & Effects** |IT/ME (Musik & Effekte) | Music & Effects | ME | ICMP  |    
-**AD/VI** (*mixed*)       | Audiodeskription (mixed)| Descriptive Video | DV | FCMP |    
-**Clear Speech** (*mixed*)  | Klare Sprache (mixed)| Hearing Impaired | HI | ??   
-Music (only)  | Musik (allein)| Music | MX | ICMP |   
-Effects (only)| Effekte (allein)| Effects/Foley | FX/FOL | ICMP |
-Mixed "Bed" (unspec. *mixed*)  |BED ( unspec.)   | n/a | n/a | ?? |  
-Dialogue (only)|  Sprache/Dialog (allein)| Dialogue | DX | ICMP |    
-Voice over (only)| Übersetzung (allein)| Voice-Over | VO | SING |   
-Spoken Subtitles (only)| Gesprochene Untertitel (allein)|  n/a | n/a | n/a |
-AD (only)|Audiodeskription (allein)| Visually Impaired | VI | SING |   
-Commentary (only)|Kommentar (allein)| Recorded Commentary | CM | SING |    
-Emergency |  Notfallansage| n/a | n/a | n/a |
-Undefined | Unbekannt| n/a | n/a | n/a | 
- (Silence) |  (Stille) | Silence | MOS | FCMP/SMPL |
- 
+**COMPLETE MAIN (mixed)**| Primary| PRM |FCMP | **Sendeton** (Standard) |         
+**Music & Effects** | Music & Effects | ME | ICMP  | **IT/ME** (Musik & Effekte) |    
+**AD/VI** (*mixed*)       | Descriptive Video | DV | FCMP | **Audiodeskription** (gemischt)|    
+**Clear Speech** (*mixed*)  | Hearing Impaired | HI | ?? | **Klare Sprache** (gemischt)|  
+Music (only)  |  Music | MX | ICMP |Musik (solo)|   
+Effects (only)|  Effects/Foley | FX/FOL | ICMP |Effekte (solo)|
+Mixed "Bed" (unspec. *mixed*)  | n/a | n/a | ?? |BED ( unspec.)   |  
+Dialogue (only)|  Dialogue | DX | ICMP | Sprache/Dialog (solo)|    
+Voice over (only)|  Voice-Over | VO | SING |Übersetzung (solo)|   
+Spoken Subtitles (only)|  n/a | n/a | n/a | Gesprochene Untertitel (solo)|
+AD (only)| Visually Impaired | VI | SING |Audiodeskription (solo)|   
+Commentary (only)| Recorded Commentary | CM | SING |Kommentar (solo)|    
+Emergency |  n/a | n/a | n/a | Notfallansage|   
+Undefined |  n/a | n/a | n/a |Unbekannt|    
+ (Silence) | Silence | MOS | FCMP/SMPL | (Stille) |    
+
+
 Note: MCA Content Labels do not consider "objects"-only composites and elements.
 To distinguish these it defines Use Classes    
 
@@ -77,6 +89,17 @@ Simplified           | SMPL  | The associated MCA Content contains a simplified 
 Singular             | SING  | Element contains a single content (such as narration voice) that can be output on its own or be mixed with other Soundfield Groups.|
 
 Therefore, the MCA Content label descriptors have limited correspondences with the object-based concept of ADM.
+
+## How to signal "Original Language Version" in MCA
+
+MCA offers a simple way to distinguish between "original" and "dubbed" language: *MCA Spoken Language Attribute*
+
+|Attribute| Symbol | Definition|
+|---------|--------|-----------|
+|Original |ORIGINAL|Indicates that the MCA Content contains the original spoken dialog|
+|Dubbed   | DUBBED |Indicates that the MCA Content contains dubbed dialog which replaces some or all of the original spoken dialog with another language|
+
+
 
 ### EXAMPLE
 The test vector 1.1.6 in the 1st ADM Plugfest (ADM-IG June 2026) was modelled similar to a typical "ADM4Legacy" use case containing different channel-based mixes:
@@ -103,7 +126,15 @@ ADM, chunk_id=axml, RFC5646SpokenLanguage="de-DE", MCATitle="MAIN_MIX_5.1-SENDET
 ```
 
 Note: MCA labels require RFC5646 [IETF language tags](https://datatracker.ietf.org/doc/html/rfc5646)
+Some examples
 
+|  Language | RFC5646 Code |
+|-----------|----------------|
+| ENGLISH GB | en-GB |
+| ENGLISH US | en-US |
+| FRENCH  | fr-FR|
+| GERMAN  | de-DE |
+| ITALIAN | it-IT |
 
 
 
@@ -113,20 +144,6 @@ The final CL was
 raw2bmx -t op1a -o hessischer_rundfunk_1_2_6__test_i4b_adm_A.mxf --audio-layout adm --track-mca-labels x mca-ADM-label-PF26-TV_1_1_6.txt --adm-wave-chunk axml,urn:smpte:ul:060e2b34.0401010d.04020211.02020000 --wave hessischer_rundfunk_1_1_6_test_i4a_adm_A.wav
 ```
 
-The `urn:smpte:ul:060e2b34.0401010d.04020211.02020000` refers to SMPTE Registry.     
-See [this table of Labels](./adm_profiles_levels_table.html) for details.
 
- ```
- <Entry>
-   <Register>Labels</Register>
-   <NamespaceName>http://www.smpte-ra.org/reg/400/2012</NamespaceName>
-   <Symbol>ADM_ITU2168_Emission_V1_L1</Symbol>
-   <UL>urn:smpte:ul:060e2b34.0401010d.04020211.02020000</UL>
-   <Kind>LEAF</Kind>
-   <Name>ITU-R BS.2168 ADM Emission Profile Version "1", Level "1"</Name>
-   <Definition>Identifies the ADM and S-ADM profile identified by profile="ITU-R BS.2168", profileName="Advanced sound system: ADM and S-ADM profile for emission", profileVersion="1", profileLevel="1"</Definition>
-   <Applications>ADMProfileLevel</Applications>
-   <DefiningDocument>ITU-R BS.2168</DefiningDocument>
-   <IsDeprecated>false</IsDeprecated>
- </Entry>
- ```
+\>\>Note: The `urn:smpte:ul:060e2b34.0401010d.04020211.02020000` refers to the SMPTE Registry.     
+    See [this table of Labels](./adm_profiles_levels_table.html) for details.    
