@@ -26,7 +26,7 @@ nav:
   - Home: 'index.md'
   - Introduction:
     - What is the ADM?: 'background/what_is_the_adm.md'
-    - A Short History: 'background/adm-history.md'
+    - A Timeline of ADM: 'background/adm-timeline.md'
     - Types of Audio: 'background/audio_types.md'
     - Rendering: 'background/rendering.md'
   - ADM Guidelines:
