@@ -123,7 +123,7 @@ The test vector 1.1.6 in the [1st ADM Plugfest](../admig/plugfest1.md) (June 202
     -Original Version (OV) 2.0
     -Complete Main (Sendeton) 5.1
 
-The mca-label.txt file created for the conversion/muxing of the BW64-ADM.wav in [BMX tool for MXF](https://github.com/ebu/bmx) contained
+The mca-label.txt file created for the conversion/muxing of the BW64-ADM.wav in [bmx tool for MXF](https://github.com/ebu/bmx) contained
 
 ```
 0
