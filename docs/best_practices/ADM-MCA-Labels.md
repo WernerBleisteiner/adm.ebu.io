@@ -108,10 +108,10 @@ Some examples
 
 MCA offers a simple way to distinguish between "original" and "dubbed" language: *MCASpokenLanguageAttribute*
 
-|Attribute| Symbol | Definition|
+|MCASpokenLaguageAttribute| Symbol | Definition|
 |---------|--------|-----------|
-|Original |ORIGINAL|Indicates that the MCA Content contains the original spoken dialog|
-|Dubbed   | DUBBED |Indicates that the MCA Content contains dubbed dialog which replaces some or all of the original spoken dialog with another language|
+|Original |`ORIGINAL`|Indicates that the MCA Content contains the original spoken dialog|
+|Dubbed   | `DUBBED` |Indicates that the MCA Content contains dubbed dialog which replaces some or all of the original spoken dialog with another language|
 
 
 
