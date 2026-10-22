@@ -66,7 +66,7 @@ Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub
 |**AD/VI** (*mixed*)       | Descriptive Video | `DV` | `FCMP` | **Audiodeskription** (gemischt)|    
 |**Clear Speech** (*mixed*)  | Hearing Impaired | `HI` | n/a | **Klare Sprache** (gemischt)|  
 |Music (only)  |  Music | `MX` | `ICMP` |Musik (solo)|   
-|Effects (only)|  Effects/Foley | `FX`/`FOL` | `ICMP` |Effekte (solo)|
+|Effects (only)|  Effects/Foley | `FX`/`FOL` | `ICMP` |Effekte/Geräusche (solo)|
 |Mixed "Bed" (unspec. *mixed*)  | n/a | n/a | n/a |BED ( unspec.)   |  
 |Dialogue (only)|  Dialogue | `DX` | `ICMP` | Sprache/Dialog (solo)|    
 |Voice over (only)|  Voice-Over | `VO` | `SING` |Übersetzung (solo)|   
@@ -78,15 +78,15 @@ Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub
 |(Silence) | Silence | `MOS` | `SMPL` | (Stille) |    
 
 
-Note: *MCA Content Labels* do not consider "objects"-only composites and elements.
-To distinguish these it defines *Use Classes*    
+Note: *MCAContentLabels* do not consider "objects"-only composites and elements.
+To distinguish these, *MCAUseClasses* are defined:  
 
-|     MCA use Class  | Symbol | Definition |
+| MCAUseClass | Symbol | Definition |
 ---------------------|--------|------------|
-|Finished Composite   | FCMP   |The associated MCA Content is a composite, complete work and need not be mixed prior to presentation. It can be mixed with other Soundfield Groups to create other particular desired content per the allowed combinations in Table 4.|
-|Intermediary Composite| ICMP  |The associated MCA Content is a composite but requires mixing with other elements prior to presentation. It can be mixed with other Soundfield Groups to create desired FCMP content per the allowed combinations in Table 4.|
-|Simplified           | SMPL  | The associated MCA Content contains a simplified mix, typically mono, stereo or Lt-Rt, intended for special uses. It can be mixed with other SMPL Soundfield Groups to create desired SMPL content per the allowed combinations in Table 4.|
-|Singular             | SING  | Element contains a single content (such as narration voice) that can be output on its own or be mixed with other Soundfield Groups.|
+|Finished Composite   | `FCMP`   |The associated MCA Content is a composite, complete work and need not be mixed prior to presentation. It can be mixed with other Soundfield Groups to create other particular desired content per the allowed combinations in Table 4.|
+|Intermediary Composite| `ICMP`  |The associated MCA Content is a composite but requires mixing with other elements prior to presentation. It can be mixed with other Soundfield Groups to create desired FCMP content per the allowed combinations in Table 4.|
+|Simplified           | `SMPL`  | The associated MCA Content contains a simplified mix, typically mono, stereo or Lt-Rt, intended for special uses. It can be mixed with other SMPL Soundfield Groups to create desired SMPL content per the allowed combinations in Table 4.|
+|Singular             | `SING`  | Element contains a single content (such as narration voice) that can be output on its own or be mixed with other Soundfield Groups.|
 
 Therefore, the MCA Content label descriptors have limited correspondences with the object-based concept of ADM.
 
