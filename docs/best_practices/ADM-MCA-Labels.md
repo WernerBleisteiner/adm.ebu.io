@@ -59,23 +59,23 @@ This table provides an overview how to describe composites ("mixes") with MCA pr
 
 Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub/)    
 
-|   **TYPE**  |  MCA CONTENT | MCA SYMBOL| MCA USE CLASS|**German Term**|
+|   **TYPE**  |  MCAContent meaning | MCA SYMBOL| MCA USE CLASS|**German Term**|
 --------------|----------------|--------------|-----------|--------------|    
-|**COMPLETE MAIN (mixed)**| Primary| PRM |FCMP | **Sendeton** (Standard) |         
-|**Music & Effects** | Music & Effects | ME | ICMP  | **IT/ME** (Musik & Effekte) |    
-|**AD/VI** (*mixed*)       | Descriptive Video | DV | FCMP | **Audiodeskription** (gemischt)|    
-|**Clear Speech** (*mixed*)  | Hearing Impaired | HI | ?? | **Klare Sprache** (gemischt)|  
-|Music (only)  |  Music | MX | ICMP |Musik (solo)|   
-|Effects (only)|  Effects/Foley | FX/FOL | ICMP |Effekte (solo)|
-|Mixed "Bed" (unspec. *mixed*)  | n/a | n/a | ?? |BED ( unspec.)   |  
-|Dialogue (only)|  Dialogue | DX | ICMP | Sprache/Dialog (solo)|    
-|Voice over (only)|  Voice-Over | VO | SING |Übersetzung (solo)|   
+|**COMPLETE MAIN (mixed)**| Primary| `PRM` |`FCMP` | **Sendeton** (Standard) |         
+|**Music & Effects** | Music & Effects | `ME` | `ICMP`  | **IT/ME** (Musik & Effekte) |    
+|**AD/VI** (*mixed*)       | Descriptive Video | `DV` | `FCMP` | **Audiodeskription** (gemischt)|    
+|**Clear Speech** (*mixed*)  | Hearing Impaired | `HI` | n/a | **Klare Sprache** (gemischt)|  
+|Music (only)  |  Music | `MX` | `ICMP` |Musik (solo)|   
+|Effects (only)|  Effects/Foley | `FX`/`FOL` | `ICMP` |Effekte (solo)|
+|Mixed "Bed" (unspec. *mixed*)  | n/a | n/a | n/a |BED ( unspec.)   |  
+|Dialogue (only)|  Dialogue | `DX` | `ICMP` | Sprache/Dialog (solo)|    
+|Voice over (only)|  Voice-Over | `VO` | `SING` |Übersetzung (solo)|   
 |Spoken Subtitles (only)|  n/a | n/a | n/a | Gesprochene Untertitel (solo)|
-|AD (only)| Visually Impaired | VI | SING |Audiodeskription (solo)|   
-|Commentary (only)| Recorded Commentary | CM | SING |Kommentar (solo)|    
+|AD (only)| Visually Impaired | `VI` | `SING` |Audiodeskription (solo)|   
+|Commentary (only)| Recorded Commentary | `CM` | `SING` |Kommentar (solo)|    
 |Emergency |  n/a | n/a | n/a | Notfallansage|   
 |Undefined |  n/a | n/a | n/a |Unbekannt|    
-|(Silence) | Silence | MOS | FCMP/SMPL | (Stille) |    
+|(Silence) | Silence | `MOS` | `SMPL` | (Stille) |    
 
 
 Note: *MCA Content Labels* do not consider "objects"-only composites and elements.
@@ -106,7 +106,7 @@ Some examples
 
 ### How to signal "Original Language Version" in MCA
 
-MCA offers a simple way to distinguish between "original" and "dubbed" language: *MCA Spoken Language Attribute*
+MCA offers a simple way to distinguish between "original" and "dubbed" language: *MCASpokenLanguageAttribute*
 
 |Attribute| Symbol | Definition|
 |---------|--------|-----------|
@@ -123,17 +123,17 @@ The test vector 1.1.6 in the [1st ADM Plugfest](../admig/plugfest1.md) (June 202
     -Original Version (OV) 2.0
     -Complete Main (Sendeton) 5.1
 
-The mca-label.txt file created for the conversion/muxing of the BW64-ADM.wav in [BMX tool for MXF](https://github.com/ebu/bmx) contained
+The mca-label.txt file created for the conversion/muxing of the BW64-ADM.wav in [bmx tool for MXF](https://github.com/ebu/bmx) contained
 
 ```
 0
 # audioProgramme_1
 ADM, chunk_id=axml, RFC5646SpokenLanguage="de-DE", MCATitle="MAIN_MIX_2.0-SENDETON_GER", MCATitleVersion="n/a", MCAContent="PRM", MCAUseClass="FCMP", ADMAudioProgrammeID="APR_1001"
 # audioProgramme_2
-ADM, chunk_id=axml, MCATitle="IT/ME 2.0", MCATitleVersion="n/a", MCAContent="ME", MCAUseClass="FCMP", ADMAudioProgrammeID="APR_1002"
+ADM, chunk_id=axml, MCATitle="IT/ME 2.0", MCATitleVersion="n/a", MCAContent="ME", MCAUseClass="ICMP", ADMAudioProgrammeID="APR_1002"
 # audioProgramme_3
 ADM, chunk_id=axml, RFC5646SpokenLanguage="de-DE", MCATitle="AD-MIX_2.0", MCATitleVersion="n/a", MCAContent="DV", MCAUseClass="FCMP", ADMAudioProgrammeID="APR_1003"
-# audioProgramme_4 - It is unclear, if the 'MCA Spoken Language Attribute' "ORIGINAL" is correct?
+# audioProgramme_4
 ADM, chunk_id=axml, RFC5646SpokenLanguage="en-GB", MCATitle="n/a", MCATitleVersion="n/a", MCAContent="PRM", MCAUseClass="FCMP", MCASpokenLanguageAttribute="ORIGINAL", ADMAudioProgrammeID="APR_1004"
 # audioProgramme_5
 ADM, chunk_id=axml, RFC5646SpokenLanguage="de-DE", MCATitle="MAIN_MIX_5.1-SENDETON_GER", MCATitleVersion="n/a", MCAContent="PRM", MCAUseClass="FCMP", ADMAudioProgrammeID="APR_1005"

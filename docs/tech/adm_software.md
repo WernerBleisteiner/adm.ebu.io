@@ -41,7 +41,7 @@
 
 ## Wrapping ADM in MXF and IMF
 
-* [**BMX tool for MXF**](https://github.com/ebu/bmx)    
+* [**bmx tool for MXF**](https://github.com/ebu/bmx)    
   → Formerly developed by [BBC R&D](https://github.com/bbc/bmx)
   → Open Source - the 'Swiss Army Knife' for MXF in broadcast workflows
   → allows to wrap ADM [SMPTE ST 2067-204](https://pub.smpte.org/doc/st2067-204/) (for IMF [SMPTE ST 2067](https://www.smpte.org/standards/st2067)) and [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/) (for MXF)
