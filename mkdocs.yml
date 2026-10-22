@@ -96,7 +96,7 @@ nav:
         - ADM Profiles & Levels Labels: 'best_practices/adm_profiles_levels_table.html'
         - ADM Content Kind Attributes and MCA Labels: 'best_practices/ADM-MCA-Labels.md'
   - ADM Migration Path:
-        - Overview: 'tech/migration.md'
+        - Migration Path Overview: 'tech/migration.md'
         - Step 1 - ADM4Legacy: 'tech/ADM4Legacy-OnDemand.md'
         - Step 2 - ADM2Legacy: 'tech/ADM2Legacy.md'
         - Step 3 - ADM4NGA: 'tech/ADM2NGA.md'
