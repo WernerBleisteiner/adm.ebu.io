@@ -128,11 +128,11 @@
           <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
         </audioTrackUID>
         <audioTrackUID UID="ATU_00000007">
-          <audioChannelFormatIDRef>AT_00031001_01</audioChannelFormatIDRef>
+          <audioChannelFormatIDRef>AC_00010001</audioChannelFormatIDRef>
           <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
         </audioTrackUID>
         <audioTrackUID UID="ATU_00000008">
-          <audioChannelFormatIDRef>AT_00031001_02</audioChannelFormatIDRef>
+          <audioChannelFormatIDRef>AC_00010002</audioChannelFormatIDRef>
           <audioPackFormatIDRef>AP_00010002</audioPackFormatIDRef>
         </audioTrackUID>
       </audioFormatExtended>
