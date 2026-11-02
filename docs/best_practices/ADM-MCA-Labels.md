@@ -116,12 +116,13 @@ MCA offers a simple way to distinguish between "original" and "dubbed" language:
 
 
 ### Sample MCA
-The test vector 1.1.6 in the [1st ADM Plugfest](../admig/plugfest1.md) (June 2026) was modelled similar to a typical "ADM4Legacy" use case containing different channel-based mixes:
-    -Complete Main (Sendeton) 2.0
-    -Music & Effects (IT(ME) 2.0
-    -Audio Description Mix (AD) 2.0
-    -Original Version (OV) 2.0
-    -Complete Main (Sendeton) 5.1
+The test vector 1.1.6 in the [1st ADM Plugfest](../admig/plugfest1.md) (June 2026) was modelled similar to a typical "ADM4Legacy" use case containing different channel-based mixes:  
+ 
+* Complete Main (Sendeton) 2.0    
+* Music & Effects (IT(ME) 2.0    
+* Audio Description Mix (AD) 2.0    
+* Original Version (OV) 2.0    
+* Complete Main (Sendeton) 5.1    
 
 The mca-label.txt file created for the conversion/muxing of the BW64-ADM.wav in [bmx tool for MXF](https://github.com/ebu/bmx) contained
 
