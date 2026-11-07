@@ -1,4 +1,4 @@
-# ADM Attributes and MCA Labels
+# ADM Attributes and MCA Properties
 
 ## Content Kind & ADM Attributes
 
@@ -7,7 +7,7 @@ Here's an overview of the most commonly applied types (printed in **bold**) as d
 
 Reference: [ITU-R BS.2076-3](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2076-3-202502-I!!PDF-E.pdf) §5.7.3
 
-|   **TYPE**  | **CODE** (within block `<audioContent>. . .</audioContent>`|**German Term**|
+|   **TYPE**  | **CODE** (within block `<audioContent>. . .</audioContent>`)|**German Term**|
 --------------|----------------------------------------------------|-----------------------|
 **COMPLETE MAIN (mixed)**|  `<dialogue mixedContentKind="1“>2</dialogue>`  | **Sendeton** (Standard)|        
 **Music & Effects** | `<dialogue nonDialogueContentKind="3“>0</dialogue>`  | **IT/ME** (Musik & Effekte)|      
@@ -52,43 +52,46 @@ as well as in `<audioProgrammeLabel>` (incl. different terms assigned via tags o
 
 \>\>[This sample](ADM4Legacy-4aP-Sample-axml.md) contains all of the above mentioned features describing a typical *ADM4Lagecy* configuration as defined in [EBU R123](https://tech.ebu.ch/publications/r123) or [ITU-R BS.2102](https://www.itu.int/rec/R-REC-BS.2102/en)
 
-## Content Kind & MCA Labels
+## Content Kind & MCA Properties
 
-If applied in MXF OP1-A using [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/), additional signalling in *MCA Labels* is recommended.    
-This table provides an overview how to describe composites ("mixes") with MCA properties (most common types in **bold**)
+If ADM is carried in an MXF OP1-A file using [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/), the use of MXF *Multichannel Audio Labeling (MCA)* is strongly recommended per the [MXF & IMF Best Practice](mxf_imf.md). The MCA properties must reflect the details of the ADM.     
 
-Reference: [SMPTE-ST377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub/)    
+This table provides an overview of how to describe composites ("mixes") with MCA properties (most common types in **bold**)
 
-|   **TYPE**  |  MCAContent meaning | MCA SYMBOL| MCA USE CLASS|**German Term**|
+Reference: [SMPTE-ST 377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pub/)    
+
+|   **TYPE**  |  MCA meaning | `MCAContent`  | `MCAUseClass`|**German Term**|   
 --------------|----------------|--------------|-----------|--------------|    
 |**COMPLETE MAIN (mixed)**| Primary| `PRM` |`FCMP` | **Sendeton** (Standard) |         
 |**Music & Effects** | Music & Effects | `ME` | `ICMP`  | **IT/ME** (Musik & Effekte) |    
 |**AD/VI** (*mixed*)       | Descriptive Video | `DV` | `FCMP` | **Audiodeskription** (gemischt)|    
-|**Clear Speech** (*mixed*)  | Hearing Impaired | `HI` | n/a | **Klare Sprache** (gemischt)|  
+|**Clear Speech** (*mixed*)  | Hearing Impaired | `HI``FCMP` | n/a | **Klare Sprache** (gemischt)|  
 |Music (only)  |  Music | `MX` | `ICMP` |Musik (solo)|   
 |Effects (only)|  Effects/Foley | `FX`/`FOL` | `ICMP` |Effekte/Geräusche (solo)|
-|Mixed "Bed" (unspec. *mixed*)  | n/a | n/a | n/a |BED ( unspec.)   |  
+|<span style="color: grey;">[Mixed "Bed" (unspec. *mixed]</span>| n/a | n/a | n/a |BED ( unspec.)   |  
 |Dialogue (only)|  Dialogue | `DX` | `ICMP` | Sprache/Dialog (solo)|    
 |Voice over (only)|  Voice-Over | `VO` | `SING` |Übersetzung (solo)|   
-|Spoken Subtitles (only)|  n/a | n/a | n/a | Gesprochene Untertitel (solo)|
+|<span style="color: grey;">[Spoken Subtitles (only)]</span>|  n/a | n/a | n/a | Gesprochene Untertitel (solo)|
 |AD (only)| Visually Impaired | `VI` | `SING` |Audiodeskription (solo)|   
 |Commentary (only)| Recorded Commentary | `CM` | `SING` |Kommentar (solo)|    
-|Emergency |  n/a | n/a | n/a | Notfallansage|   
-|Undefined |  n/a | n/a | n/a |Unbekannt|    
+|<span style="color: grey;">[Emergency]</span> |  n/a | n/a | n/a | Notfallansage|   
+|<span style="color: grey;">[Undefined]</span> |  n/a | n/a | n/a |Unbekannt|    
 |(Silence) | Silence | `MOS` | `SMPL` | (Stille) |    
 
+Note: Lines containing entries formatted '<span style="color: grey;">[...]</span>' and contain 'n/a' have no correspondence in MCA properties and therefore are not to be applied. They're listed here only to match with the entries in table 1.
 
-Note: *MCAContentLabels* do not consider "objects"-only composites and elements.
-To distinguish these, *MCAUseClasses* are defined:  
 
-| MCAUseClass | Symbol | Definition |
+Note: Note: `MCAContent` values do not consider "objects", only composites and elements.  
+To distinguish these, `MCAUseClass` values are defined:  
+
+| Meaning | `MCAUseClass` | Definition |
 ---------------------|--------|------------|
 |Finished Composite   | `FCMP`   |The associated MCA Content is a composite, complete work and need not be mixed prior to presentation. It can be mixed with other Soundfield Groups to create other particular desired content per the allowed combinations in Table 4.|
 |Intermediary Composite| `ICMP`  |The associated MCA Content is a composite but requires mixing with other elements prior to presentation. It can be mixed with other Soundfield Groups to create desired FCMP content per the allowed combinations in Table 4.|
 |Simplified           | `SMPL`  | The associated MCA Content contains a simplified mix, typically mono, stereo or Lt-Rt, intended for special uses. It can be mixed with other SMPL Soundfield Groups to create desired SMPL content per the allowed combinations in Table 4.|
 |Singular             | `SING`  | Element contains a single content (such as narration voice) that can be output on its own or be mixed with other Soundfield Groups.|
 
-Therefore, the MCA Content label descriptors have limited correspondences with the object-based concept of ADM.
+Therefore, the `MCAContent` values have limited correspondences with the object-based concept of ADM.
 
 ### Set languages in MCA
 
@@ -106,23 +109,23 @@ Some examples
 
 ### How to signal "Original Language Version" in MCA
 
-MCA offers a simple way to distinguish between "original" and "dubbed" language: *MCASpokenLanguageAttribute*
+MCA offers a simple way to distinguish between "original" and "dubbed" language: `MCASpokenLanguageAttribute`
 
-|MCASpokenLaguageAttribute| Symbol | Definition|
-|---------|--------|-----------|
-|Original |`ORIGINAL`|Indicates that the MCA Content contains the original spoken dialog|
-|Dubbed   | `DUBBED` |Indicates that the MCA Content contains dubbed dialog which replaces some or all of the original spoken dialog with another language|
+|`MCASpokenLaguageAttribute`|Definition|
+|--------|-----------|
+|`ORIGINAL`|Indicates that the MCA Content contains the original spoken dialog|
+| `DUBBED` |Indicates that the MCA Content contains dubbed dialog which replaces some or all of the original spoken dialog with another language|
 
 
 
 ### Sample MCA
-The test vector 1.1.6 in the [1st ADM Plugfest](../admig/plugfest1.md) (June 2026) was modelled similar to a typical "ADM4Legacy" use case containing different channel-based mixes:  
- 
-* Complete Main (Sendeton) 2.0    
-* Music & Effects (IT(ME) 2.0    
-* Audio Description Mix (AD) 2.0    
-* Original Version (OV) 2.0    
-* Complete Main (Sendeton) 5.1    
+The test vector 1.1.6 in the [1st ADM Plugfest](../admig/plugfest1.md) (June 2026) was modelled similar to a typical "ADM4Legacy" use case containing different channel-based mixes:    
+
+* Complete Main (Sendeton) 2.0
+* Music & Effects (IT(ME) 2.0
+* Audio Description Mix (AD) 2.0
+* Original Version (OV) 2.0
+* Complete Main (Sendeton) 5.1  
 
 The mca-label.txt file created for the conversion/muxing of the BW64-ADM.wav in [bmx tool for MXF](https://github.com/ebu/bmx) contained
 
@@ -149,5 +152,5 @@ raw2bmx -t op1a -o OUTPUT-ADM.mxf --audio-layout adm --track-mca-labels x mca-AD
 ```
 
 
-\>\>Note: The `urn:smpte:ul:060e2b34.0401010d.04020211.02020000` refers to the SMPTE Registry signalling the *ADM_ITU2168_Emission_V1_L1* as defined in [ITU-R BS.2168-0](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2168-0-202502-I!!PDF-E.pdf)    
+\>\>Note: The `urn:smpte:ul:060e2b34.0401010d.04020211.02020000` refers to the SMPTE Label for *ADM_ITU2168_Emission_V1_L1* as defined in [ITU-R BS.2168-0](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2168-0-202502-I!!PDF-E.pdf)       
     See [this table of Labels](./adm_profiles_levels_table.html) for reference on the defined ADM Profiles and Levels.    
