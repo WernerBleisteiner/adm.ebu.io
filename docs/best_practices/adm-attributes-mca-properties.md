@@ -65,7 +65,7 @@ Reference: [SMPTE-ST 377-41-2023](https://pub.smpte.org/doc/st377-41/20230413-pu
 |**COMPLETE MAIN (mixed)**| Primary| `PRM` |`FCMP` | **Sendeton** (Standard) |         
 |**Music & Effects** | Music & Effects | `ME` | `ICMP`  | **IT/ME** (Musik & Effekte) |    
 |**AD/VI** (*mixed*)       | Descriptive Video | `DV` | `FCMP` | **Audiodeskription** (gemischt)|    
-|**Clear Speech** (*mixed*)  | Hearing Impaired | `HI``FCMP` | n/a | **Klare Sprache** (gemischt)|  
+|**Clear Speech** (*mixed*)  | Hearing Impaired | `HI` | `FCMP` | **Klare Sprache** (gemischt)|  
 |Music (only)  |  Music | `MX` | `ICMP` |Musik (solo)|   
 |Effects (only)|  Effects/Foley | `FX`/`FOL` | `ICMP` |Effekte/Geräusche (solo)|
 |<span style="color: grey;">[Mixed "Bed" (unspec. *mixed]</span>| n/a | n/a | n/a |BED ( unspec.)   |  
