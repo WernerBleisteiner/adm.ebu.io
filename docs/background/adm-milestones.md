@@ -24,14 +24,15 @@ With *Fraunhofer IIS* in the ORPHEUS consortium, a driver behind *MPEG-H*, both 
 - 2018: [ADM Production Profile V1 EBU TECH 3392](https://tech.ebu.ch/publications/tech3392)
 - 2019: [Dolby Atmos Master ADMd Profile V1.0](https://developer.dolby.com/globalassets/documentation/technology/dolby_atmos_master_adm_profile_v1.0.pdf) - the first commercial implementation of ADM, based upon *BS.2076-0*. Alongside, with Dolby Atmos authoring tools, ADM becomes an alternative mastering format to Dolby's proprietary *DAMF*.  ADM will prevail.
 - 2019: ITU-R BS.2076-2 published. It forms the basis also for the ...
-- 2020: [MPEG-H Production Profile v1.0](https://mpegh.com/wp-content/uploads/2026/10/MPEG_H_ADM_Profile.pdf) that incorporates object-based key features of ADM such as adaptive dialogue levels   
-- 2021: [EAR Production Suite](https://ear-production-suite.ebu.io) published. A paradigmatic implementation of ADMv2 in REAPER
+- 2020: [MPEG-H Production Profile v1.0](https://mpegh.com/wp-content/uploads/2026/10/MPEG_H_ADM_Profile.pdf) that incorporates object-based key features of ADM such as adaptive dialogue levels etc.  
+- 2021: [EAR Production Suite](https://ear-production-suite.ebu.io) published. A paradigmatic implementation of ADMv2 for [REAPER](https://www.reaper.fm/) DAW
 ![](img/IRT-RIP.gif)
-- 2021: [IRT](https://en.wikipedia.org/wiki/Institut_für_Rundfunktechnik) dissolved. After 65 years, PSB shareholder ARD, ZDF, ORF amd SRG decided to close down ther prestigious R&D institution. Audio staff of the IRT was very much involved in and dedicated to ADM's development. Their departure leaves a huge gap in ongoing efforts. IRT's tech blog has been -[preserved here](https://lab.fktg.org) You'll find interesting posts on ADM development, too.
+- 2021: [IRT](https://en.wikipedia.org/wiki/Institut_für_Rundfunktechnik) dissolved. After 65 years, PSB shareholders ARD, ZDF, ORF and SRG decided to close down their prestigious R&D institution. Audio staff of the IRT was very much involved in and dedicated to ADM's development. Their departure leaves a huge gap in ongoing efforts. IRT's tech blog has been -[preserved here](https://lab.fktg.org) You'll find interesting posts on ADM development, too.
 - 2021: UHD-Recommendation EBU [R153](https://tech.ebu.ch/docs/r/r153.pdf)/[R154](https://tech.ebu.ch/docs/r/r154.pdf) proposes ADM for more efficient handling  replacing conventional track layouts
-- 2021: [MediaInfo](https://mediaarea.net/en/MediaInfo) implements ADM (sponsored by EBU)
+![](img/ss-MI-graph.png)
+- 2021: [MediaInfo](https://mediaarea.net/en/MediaInfo) implements ADM (sponsored by EBU). Meanwhile MediaInfo and related apps have become essential to parse and visualise ADM metadata.
 ![](img/EBU-PSE-Workshop2022.JPG)
-- 2022: EBU's three day [PERSONALIZED SOUND EXPERIENCE WORKFLOWS](https://tech.ebu.ch/events/2022/personalized-sound-experiences-workflows) workshop brings together, for the first time, pioneering vendors amd broadcasters to present and demo the various aspects and opportunities for ADM in practice. Participants form the nucleus of what is to become ADM-IG.    
+- 2022: EBU's three day [PERSONALISED SOUND EXPERIENCE WORKFLOWS](https://tech.ebu.ch/events/2022/personalized-sound-experiences-workflows) workshop brings together, for the first time, pioneering vendors and broadcasters to present and demo the various aspects and opportunities for ADM in practice. Participants form the nucleus of what is to become ADM-IG.    
 - 2024: Google/Samsung ECLIPSA/[IAMF](https://github.com/AOMediaCodec/iamf) adapts ADM as basis for their own eco-system.
 - 2025: ADM [Emission Profile ITU-R. BS2168-0](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2168-0-202502-I!!PDF-E.pdf) defines NGA interoperability points for NGA codecs like AC-4 und MPEG-H
 -  2025 [ADM Production Profile V2 EBU TECH 3393](https://tech.ebu.ch/files/live/sites/tech/files/shared/tech/tech3393.pdf)
