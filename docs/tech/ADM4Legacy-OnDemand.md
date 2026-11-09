@@ -10,3 +10,11 @@ This [**STEP 1**](migration.md) workflow show the improvements that can be gaine
 
 
 ![](img/ADM4Legacy-MXF-OnDemand-Multi-Audio.png)
+
+## **<span style='color: blue;font-size:1.0em;'>ADM*4*Legacy** Tool
+
+*ARD-HR* has developed a tool to enhance conventional MXF OP1A assets with ADM metadata according to [SMPTE ST 2131](https://pub.smpte.org/doc/st2131/). Based upon [**bmx**](https://github.com/ebu/bmx) and [ffmpeg](https://ffmpeg.org), this GUI tool clearly demonstrates the benefits to be gained.     
+
+**<span style='color: blue;font-size:1.0em;'>ADM*4*Legacy** applies the best-practices described on the [MXF & IMF Best Practice](../best_practices/mxf_imf.md) and [ADM Attributes and MCA Properties](../best_practices/adm-attributes-mca-properties.md)
+
+![](img/ADM4LegacyTool.png)    
