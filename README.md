@@ -3,10 +3,9 @@
 
 ## Overview
 
-This repository hosts the ["EBU ADM Website"](https://adm.ebu.io/), which contains the EBU's ADM homepage, and other
-related pages including the ADM guidelines.
+This repository hosts the [adm.ebu.io](https://adm.ebu.io/) website, which contains the EBU's ADM homepage, and other related pages including the ADM guidelines.
 
-The Guidelines are generated using [MkDocs](http://www.mkdocs.org). The graphs within the document are generated with [graphviz](https://www.graphviz.org).
+The site is generated using [MkDocs](http://www.mkdocs.org). The graphs within the document are generated with [graphviz](https://www.graphviz.org).
 
 ## How to Contribute to [adm.ebu.io](https://adm.ebu.io)
 
@@ -45,28 +44,34 @@ We recommend to create local branches if you intend substantial contributions - 
 
 ### 4. Live preview during writing
 
-Given you've followed the steps of 1., you can run a live preview while editing running
+Given you've followed the steps of 1., you can run a live preview while editing with
 
 ```
 mkdocs serve
 ```
-and then using the URL `127.0.0./8000/` in a browser.
+and then using the URL `127.0.0.1:8000/` in a browser.
 Be aware of the notifications that will be shown in the terminal. They will inform you about errors or inconsistencies of the present structuring.
 
 Continue editing until you consider your contribution ready for review.
 
+
 ### 5. Create a public version of your fork or make a local static build
 
-You may apply Github CI to create a publicly visible preview if your forked repo with the URL `https://yourGithubName.github.io/adm.ebu.io/`. For details, [see here](https://github.com/squidfunk/mkdocs-material/blob/master/docs/publishing-your-site.md)
+You may apply Github CI to create a publicly visible preview of your forked repo. For details, [see here](https://github.com/squidfunk/mkdocs-material/blob/master/docs/publishing-your-site.md)
 
-Alternatively, you can build the site locally and host on your own web server
+After having activated this, you need to
+
+* push your 'dev-branch' into your 'main' branch
+* after a little while for building and deploying (you will be notified on the proceeding of thos action), you will be able to see the result as a site on `https://yourGithubName.github.io/adm.ebu.io/`. 
+
+Alternatively, you can build the site locally with
 
 ```
 mkdocs build
 ```
-in the project folder.
+in the project folder and then and host on your own web server by swapping it up.
 
-If you have made any changes to or added some `dot` files run
+If you have made any changes to or added some `dot` files, you should firt run
 ```
 ./convert_dot_graphs.sh
 ```
@@ -76,5 +81,19 @@ For more information and options, please refer to the [mkdocs manual](http://www
 
 ### 6. Create a Pull Request (PR) to the  source adm.ebu.io repo
 
-....
+Access [https://github.com/ebu/adm.ebu.io](https://github.com/ebu/adm.ebu.io) in a browser or via the Github app and select 'Compare & pull request'. Check and the open the PR
+
+It is advisible to provide the link to the Github CI of your fork or self-hosted version (c.f. under 5.)
+
+Further discussion will then take place within the respective Github thread.
+
+When your contribution is 
+eventually accepted, it will be pushed into 'main' and then an updated version of the website is automatically published withon a few minutes (don't forget to clean your browser's cache, you've accessed the main site meanwhile).
+
+### 7. 'Sync' your fork and clean it up
+
+It is advisable to apply the 'sync' function to your fork some time after completion. This will bring your 'main' branch in line with the source. You should also delete you development branch that was merged.
+
+
+
 
