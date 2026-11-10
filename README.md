@@ -50,16 +50,16 @@ Given you've followed the steps of 1., you can run a live preview while editing 
 ```
 mkdocs serve
 ```
-and then using the URL `127.0.0./8000` in a browser.
-Be aware of the notifucations that will be shown in the terminal. They will inform you about errors or inconsistencies of the present structuring.
+and then using the URL `127.0.0./8000/` in a browser.
+Be aware of the notifications that will be shown in the terminal. They will inform you about errors or inconsistencies of the present structuring.
 
 Continue editing until you consider your contribution ready for review.
 
 ### 5. Create a public version of your fork or make a local static build
 
-You may apply Github CI to create a publicly visible preview if your forked repo with the URL `https://yourGithubName/github.io/ebu.adm.io/`. For details, [see here](https://github.com/squidfunk/mkdocs-material/blob/master/docs/publishing-your-site.md)
+You may apply Github CI to create a publicly visible preview if your forked repo with the URL `https://yourGithubName.github.io/adm.ebu.io/`. For details, [see here](https://github.com/squidfunk/mkdocs-material/blob/master/docs/publishing-your-site.md)
 
-Alternatively, you can build the site locally and host on your web server
+Alternatively, you can build the site locally and host on your own web server
 
 ```
 mkdocs build
@@ -74,6 +74,7 @@ in the project folder.
 
 For more information and options, please refer to the [mkdocs manual](http://www.mkdocs.org)
 
-### 6. Create a Pull Request (PR) to the main repo
+### 6. Create a Pull Request (PR) to the  source adm.ebu.io repo
 
+....
 
