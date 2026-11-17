@@ -9,13 +9,18 @@ The site is generated using [MkDocs](http://www.mkdocs.org). The graphs within t
 
 ## How to Contribute to [adm.ebu.io](https://adm.ebu.io)
 
-If you want to contribute or improve to the published version, you have to to apply general git workflows.
+If you want to contribute or improve to the published version, you have to to get accustomed and apply general git workflows.
 
-### 1. Get/fork the source
+### 1. Fork the source
+
+Given that you have an account with [Github](https://github.con), the most convenient way to fork the repo is to access [adm.ebu.io-Github page](https://github.com/ebu/adm.ebu.io) and create your fork with the "Fork" button top right.
+
+On the command line use
 
 ```
-git clone git@git.ebu.io:as/ebu-adm-io.git
+gh repo fork https://github.com/ebu/adm.ebu.io
 ```
+
 
 ### 2. Install requirements
 
@@ -27,19 +32,26 @@ pip install -r requirements.txt
 
 Install graphviz
 
-On Ubuntu, use
+* On Ubuntu, use
 ```
 sudo apt install graphviz
 ```
 
-On OSX with [homebrew](http://www.homebrew.sh) use
+* On OSX with [homebrew](http://www.homebrew.sh) use
 ```
 brew install graphviz
 ```
 
+* For Windows, static builds are available from [graphviz.org](https://graphviz.org/download/). 
+
+
 ### 3. Create your lokal develop branch
 
-We recommend to create local branches if you intend substantial contributions - i.e. one or more pages. 
+After that, create local branche(s), e.g.
+
+```
+git checkout -b dev-branch
+```
 
 
 ### 4. Live preview during writing
@@ -62,16 +74,17 @@ You may apply Github CI to create a publicly visible preview of your forked repo
 After having activated this, you need to
 
 * push your 'dev-branch' into your 'main' branch
-* after a little while for building and deploying (you will be notified on the proceeding of thos action), you will be able to see the result as a site on `https://yourGithubName.github.io/adm.ebu.io/`. 
+* after a little while for building and deploying (you will be notified on the proceeds of this action), you will be able to see the result as a site on `https://yourGithubName.github.io/adm.ebu.io/`. 
 
-Alternatively, you can build the site locally with
+Alternatively, you may build a static site locally with
 
 ```
 mkdocs build
 ```
+
 in the project folder and then and host on your own web server by swapping it up.
 
-If you have made any changes to or added some `dot` files, you should firt run
+If you have made any changes to or added some `dot` files, you should first run
 ```
 ./convert_dot_graphs.sh
 ```
@@ -88,11 +101,11 @@ It is advisible to provide the link to the Github CI of your fork or self-hosted
 Further discussion will then take place within the respective Github thread.
 
 When your contribution is 
-eventually accepted, it will be pushed into 'main' and then an updated version of the website is automatically published withon a few minutes (don't forget to clean your browser's cache, you've accessed the main site meanwhile).
+eventually accepted, it will be pushed into 'main' and then an updated version of the website is automatically published within a few minutes (don't forget to clean your browser's cache, you've accessed the main site meanwhile).
 
 ### 7. 'Sync' your fork and clean it up
 
-It is advisable to apply the 'sync' function to your fork some time after completion. This will bring your 'main' branch in line with the source. You should also delete you development branch that was merged.
+After full completion (and pottienally more contributions from you), you need to apply the 'sync' function to your fork. This will bring your forked 'main' branch in line with the (new) source version. You should also delete you development branch that was merged.
 
 
 
