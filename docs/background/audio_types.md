@@ -1,6 +1,6 @@
 # Types of Audio
 
-When we start to dive into the workings of the Audio Definition Model, we'll encounter five different [types](../reference/adm_elements/type_definitions.md) of audio. Here's an overview of these different types.
+When we start to dive into the workings of the Audio Definition Model, we'll encounter five different [types](../guidelines/reference/adm_elements/type_definitions.md) of audio. Here's an overview of these different types.
 
 ## Channel-based
 

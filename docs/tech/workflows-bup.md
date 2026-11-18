@@ -18,7 +18,7 @@ For existing conventional channel-based production and distribution workflows
      -> enabling track-routing and automation in workflows    
      -> driving on-air and on-demand *MULTI-AUDIO* delivery    
 
-->[ADM2Legacy](ADM4Legacy-OnDemand.md) provides more details of this stage.
+->[ADM2Legacy](ADM4Legacy.md) provides more details of this stage.
 
 ## STEP 2. ADM*2*Legacy
 
