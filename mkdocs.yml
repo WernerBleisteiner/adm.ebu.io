@@ -21,6 +21,13 @@ use_directory_urls: false
 markdown_extensions:
   - mdx_math
   - codehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 nav:
   - Home: 'index.md'
   - Introduction:
@@ -65,6 +72,7 @@ nav:
         - audioStreamFormat: 'guidelines/reference/adm_elements/audio_stream_format.md'
         - audioTrackFormat: 'guidelines/reference/adm_elements/audio_track_format.md'
         - audioTrackUID: 'guidelines/reference/adm_elements/audio_track_uid.md'
+        - profileList: 'guidelines/reference/adm_elements/profile_list.md'
         - Shared Parameters:
           - loudnessMetadata: 'guidelines/reference/adm_elements/loudness_metadata.md'
           - typeDefinitions: 'guidelines/reference/adm_elements/type_definitions.md'
@@ -77,6 +85,9 @@ nav:
           - zoneExclusion: 'guidelines/reference/adm_elements/parameters/zone_exclusion.md'
           - objectDivergence: 'guidelines/reference/adm_elements/parameters/object_divergence.md'
           - orderAndDegree: 'guidelines/reference/adm_elements/parameters/order_and_degree.md'
+          - normalization: 'guidelines/reference/adm_elements/parameters/normalization.md'
+          - nfcRefDist: 'guidelines/reference/adm_elements/parameters/nfc_ref_dist.md'
+          - screenRef: 'guidelines/reference/adm_elements/parameters/screen_ref.md'
       - Excursions:
         - Introduction: 'guidelines/reference/excursion_intro.md'
         - Use of IDs: 'guidelines/reference/excursions/use_of_ids.md'
