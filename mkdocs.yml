@@ -8,10 +8,12 @@ theme:
    - navigation.instant
    - navigation.footer
 extra:
+  build_date: !ENV BUILD_DATE
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ebu/adm.ebu.io
       name: GitHub repository for website source
+
 extra_css:
   - 'css/fig_captions.css'
 use_directory_urls: false

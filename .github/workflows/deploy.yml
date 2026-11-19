@@ -27,6 +27,8 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - run: echo "BUILD_DATE=$(date -u '+%Y-%m-%d %H:%M UTC')" >> "$GITHUB_ENV"
+
       - run: mkdocs build
 
       - name: Create ADM Profiles and Levels Labels Table

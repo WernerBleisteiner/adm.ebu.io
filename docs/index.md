@@ -1,6 +1,7 @@
-<!-- This is the defaukt landing page -->
+<!-- This is the default landing page -->
 
 <!--# The Audio Definition Model-->
+<span style='color: grey;font-size:0.5em;'>Last built: {{ config.extra.build_date }}
 #
 ![](img/adm-ebu-io-New-Header-v1-transp.png)
 
