@@ -1,7 +1,7 @@
 <!-- This is the default landing page -->
 
 <!--# The Audio Definition Model-->
-<span style='color: grey;font-size:0.5em;'>Last built: {{ config.extra.build_date }}
+<!-- <span style='color: grey;font-size:0.5em;'>Last built: {{ config.extra.build_date }} - This FAILED 20.11.26 1900 - deleted from 'main' again -->
 #
 ![](img/adm-ebu-io-New-Header-v1-transp.png)
 
