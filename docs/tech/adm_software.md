@@ -108,7 +108,7 @@ Be aware that these encoders are required for genuine *Dolby Atmos ADM Profile* 
 ### FRAUNHOFER IIS
 
 * [**MPEG-H Authoring Suite (MAS)**](https://mpegh.com/academy/mas/)    
-   Full set of authoring and encoding tools:
+   Full set of authoring, encoding and playback tools:
     - The MPEG-H Authoring Tool (MAS)  
     - The MPEG-H Authoring Plug-in (MHAPi)
     - The MPEG-H Production Format Player (MPF Player)
