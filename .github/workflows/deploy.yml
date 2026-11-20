@@ -28,7 +28,11 @@ jobs:
       - run: pip install -r requirements.txt
 
       - run: echo "BUILD_DATE=$(date -u '+%Y-%m-%d %H:%M UTC')" >> "$GITHUB_ENV"
-
+         - run: echo "BUILD_DATE=$(date -u '+%Y-%m-%d %H:%M UTC')" >> "$GITHUB_ENV"
+           # This line is entered to create a variable for the time when the built job is run.
+           # It must be entered manuall on the GitHub file, as locally it's contained in the ignored '.github' directory.
+           # THIS FAILED SO FAR 20.11.26 1900 - so it's been deleted again from 'main'
+         - run: mkdocs build
       - run: mkdocs build
 
       - name: Create ADM Profiles and Levels Labels Table
