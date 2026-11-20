@@ -5,10 +5,10 @@
 
 ### ADM Code Libraries
 
-* [libadm](https://github.com/ebu/libadm) - The libadm library is a modern C++11 library to parse, modify, create and write ITU-R BS.2076 conformant XML.
+* **[libadm](https://github.com/ebu/libadm)** - The libadm library is a modern C++11 library to parse, modify, create and write ITU-R BS.2076 conformant XML.
    It works well with the header-only ..
-* [libbw64](https://github.com/ebu/libbw64) - C++ library to write ADM related BW64 files and applications with minimal dependencies
-* [libear](https://github.com/ebu/libear) - C++ library for the EAR (EBU ADM Renderer) to render ADM according to [EAR - EBU ADM Renderer] (https://www.itu.int/rec/R-REC-BS.2127)
+* **[libbw64](https://github.com/ebu/libbw64)** - C++ library to write ADM related BW64 files and applications with minimal dependencies
+* **[libear](https://github.com/ebu/libear)** - C++ library for the EAR (EBU ADM Renderer) to render ADM according to [EAR - EBU ADM Renderer] (https://www.itu.int/rec/R-REC-BS.2127)
 
 
 ### ADM Renderer & Applications
@@ -71,7 +71,7 @@
        - ISXD: Mapping document is still in draft but the reserved DIT of 0x101 is used. The selected mode of operation is inferred by the supplied input XML file
 
 * [**Dolby Audio Metadata (AM) Viewer**](https://github.com/DolbyLaboratories/AM-Viewer)    
-   → Python based realtime viewer for Serialized ADM inside a SMPTE ST 2110 container.     
+   → Python based realtime viewer for Serialised ADM inside a SMPTE ST 2110 container.     
    Two flavours of SMPTE ST 2110 are supported:
         - SMPTE ST 2110-31 and
         - SMPTE ST 2110-41
@@ -96,11 +96,19 @@
 
 **-> *Blackmagic Design* [*DaVinci Resolve*](https://www.blackmagicdesign.com/products/davinciresolve) is presently the only NLE on the market to fully support *Dolby Atmos* ADM authoring.**
 
+#### Dolby Atmos ADM Encoding
+* [**Dolby Encoding Engine**](https://professional.dolby.com/product/media-processing-and-delivery/dee--dolby-encoding-engine/)    
+   Dolby's main encoding application for audio and video content.    
+
+* [**Dolby Media Encoder**](https://professional.dolby.com/product/media-processing-and-delivery/dme---dolby-media-encoder/)     
+  GUI-oriented, audio-only version of the *DEE* (above)    
+
+Be aware that these encoders are required for genuine *Dolby Atmos ADM Profile* assets to be encoded in any *Dolby Audio<sup>TM</sup>* codec. Other ADM profiles are not supported.
 
 ### FRAUNHOFER IIS
 
 * [**MPEG-H Authoring Suite (MAS)**](https://mpegh.com/academy/mas/)    
-   Full set of authoring tools:
+   Full set of authoring and encoding tools:
     - The MPEG-H Authoring Tool (MAS)  
     - The MPEG-H Authoring Plug-in (MHAPi)
     - The MPEG-H Production Format Player (MPF Player)
@@ -127,7 +135,7 @@ The repo [MPEG-H & ADM Test Content](https://github.com/Fraunhofer-IIS/mpegh-tes
 ### ADM OSC
 
 * [**ADM OSC**](https://github.com/immersive-audio-live/ADM-OSC)    
-   -> joint Open Source project to apply ADM for live equipment, initiated by Radio France, FLUX and L-Acoustics, supported by d&b, Dolby, Lawo, Merging Tecnologies, Steinberg and others.
+   -> joint Open Source project to apply ADM for live equipment, initiated by Radio France, FLUX and L-Acoustics, supported by d&b, Dolby, Lawo, Merging Technologies, Steinberg and others.
 
 
 
