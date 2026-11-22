@@ -8,7 +8,7 @@ theme:
    - navigation.instant
    - navigation.footer
 extra:
-  #build_date: !ENV BUILD_DATE - This FAILED 20.11.26 1900 - deleted from 'main' again
+  build_date: !ENV BUILD_DATE #- This FAILED 20.11.2026 - deleted from 'main' again
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ebu/adm.ebu.io
